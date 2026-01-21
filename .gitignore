@@ -1,0 +1,250 @@
+# ===========================================
+# Career Saarthi - Git Ignore File
+# ===========================================
+
+# ===========================================
+# Environment & Secrets (CRITICAL)
+# ===========================================
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+.env.*.local
+*.env
+
+# ===========================================
+# Backend Secrets & Configuration (CRITICAL)
+# ===========================================
+# Main application properties (contains sensitive data!)
+Backend/src/main/resources/application.properties
+Backend/src/main/resources/application.yml
+Backend/src/main/resources/application.yaml
+
+# Profile-specific configurations
+Backend/src/main/resources/application-*.properties
+Backend/src/main/resources/application-*.yml
+Backend/src/main/resources/application-*.yaml
+
+# Secret/credential files
+Backend/src/main/resources/*-secret.*
+Backend/src/main/resources/*-local.*
+Backend/src/main/resources/*-prod.*
+Backend/src/main/resources/*-dev.*
+
+# Compiled properties in target folder
+Backend/target/classes/application*.properties
+Backend/target/classes/application*.yml
+
+# Keystore and certificate files
+Backend/**/*.jks
+Backend/**/*.keystore
+Backend/**/*.p12
+Backend/**/*.pem
+Backend/**/*.key
+Backend/**/*.crt
+
+# ===========================================
+# Dependencies
+# ===========================================
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+myenv/
+myenv_mac/
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+.pip/
+pip-log.txt
+
+# Java/Maven
+Backend/target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.log
+
+# ===========================================
+# IDE & Editor
+# ===========================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+
+# ===========================================
+# OS Generated
+# ===========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ===========================================
+# Build & Output
+# ===========================================
+# Frontend build
+Frontend/dist/
+Frontend/build/
+*.local
+
+# Python build
+*.manifest
+*.spec
+
+# ===========================================
+# Logs & Temp
+# ===========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+nohup.out
+
+# ===========================================
+# Test & Coverage
+# ===========================================
+coverage/
+.nyc_output/
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# ===========================================
+# ML Specific
+# ===========================================
+# Large model files (if any exceed git limits)
+# *.pkl  # Uncomment if models are too large
+# *.h5
+# *.pt
+# *.pth
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ===========================================
+# Misc
+# ===========================================
+*.bak
+*.tmp
+*.temp
+.cache/
+
+# ===========================================
+# ML Model Files (Large Files)
+# ===========================================
+# Large model files that exceed GitHub's 100MB limit
+ML/**/*.pkl
+ML/**/*.h5
+ML/**/*.pt
+ML/**/*.pth
+ML/**/*.onnx
+ML/**/*.safetensors
+ML/**/*.joblib
+ML/**/*.model
+
+# ML Specific Environments
+ML/**/myenv/
+ML/**/myenv_mac/
+ML/**/.venv/
+ML/**/venv/
+
+# ML API Keys & Secrets
+ML/**/.env
+ML/**/secrets.py
+ML/**/credentials.py
+
+# ===========================================
+# API Keys & Secrets Files
+# ===========================================
+# Google OAuth JSON credentials
+client_secret*.json
+google-credentials.json
+*-credentials.json
+
+# Generic secrets
+secrets.json
+secrets.yaml
+secrets.yml
+credentials.json
+credentials.yaml
+credentials.yml
+*.secret
+*-secret.*
+
+# API key files
+api_keys.txt
+api_keys.json
+apikeys.*
+
+# ===========================================
+# Database Files
+# ===========================================
+*.db
+*.sqlite
+*.sqlite3
+*.sql.bak
+
+# ===========================================
+# Docker (if used)
+# ===========================================
+.docker/
+docker-compose.override.yml
+docker-compose.local.yml
+
+# ===========================================
+# CI/CD Secrets
+# ===========================================
+.github/workflows/*-secrets*
+.gitlab-ci-local/

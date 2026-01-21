@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* Base styles */
+:root {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #FAFAFA;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+
+/* Animated gradient backgrounds */
+@keyframes gradient-float {
+  0%, 100% {
+    transform: translate(0%, 0%) scale(1);
+    opacity: 0.08;
+  }
+  25% {
+    transform: translate(5%, -5%) scale(1.05);
+    opacity: 0.10;
+  }
+  50% {
+    transform: translate(10%, 5%) scale(1.1);
+    opacity: 0.12;
+  }
+  75% {
+    transform: translate(-5%, 10%) scale(1.05);
+    opacity: 0.10;
+  }
+}
+
+@keyframes gradient-float-alt {
+  0%, 100% {
+    transform: translate(0%, 0%) scale(1);
+    opacity: 0.06;
+  }
+  25% {
+    transform: translate(-8%, 8%) scale(1.08);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(-5%, -5%) scale(0.95);
+    opacity: 0.10;
+  }
+  75% {
+    transform: translate(12%, -6%) scale(1.02);
+    opacity: 0.08;
+  }
+}
+
+.animate-gradient-float {
+  animation: gradient-float 20s ease-in-out infinite;
+}
+
+.animate-gradient-float-alt {
+  animation: gradient-float-alt 25s ease-in-out infinite;
+}
+
+/* Focus ring utilities */
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+/* Card utilities */
+.card {
+  @apply bg-white rounded-2xl border border-gray-200 shadow-sm;
+}
+
+.card-hover {
+  @apply transition-all duration-200 hover:shadow-md hover:border-gray-300;
+}
+
+/* Button utilities */
+.btn-primary {
+  @apply px-6 py-3 bg-blue-500 text-white rounded-full font-medium shadow-sm hover:bg-blue-600 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 bg-white text-gray-900 border-2 border-gray-300 rounded-full font-medium hover:border-gray-400 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2;
+}
+
+/* Input utilities */
+.input-field {
+  @apply w-full px-4 py-3 border-2 border-gray-300 rounded-xl text-base text-gray-900 placeholder-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all duration-200;
+}
+
+/* Line clamp utilities */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Sector color schemes */
+.sector-healthcare {
+  --color-primary: #3B82F6;
+  --color-secondary: #A78BFA;
+  --color-bg: #EFF6FF;
+}
+
+.sector-agriculture {
+  --color-primary: #10B981;
+  --color-secondary: #34D399;
+  --color-bg: #ECFDF5;
+}
+
+.sector-urban {
+  --color-primary: #6366F1;
+  --color-secondary: #818CF8;
+  --color-bg: #EEF2FF;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

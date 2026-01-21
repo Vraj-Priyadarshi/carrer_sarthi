@@ -1,0 +1,783 @@
+{
+  "projects": [
+    {
+      "project_id": "HCP-101",
+      "title": "EHR Data Quality Assessment",
+      "domain": "Healthcare Technology",
+      "description": "Analyze real healthcare dataset to identify data quality issues, missing values, and standardization problems. Create quality reports and remediation plans.",
+      "difficulty": "Intermediate",
+      "complexity": "Medium",
+      "duration_weeks": 4,
+      "skills_required": ["Healthcare Data Standards", "SQL", "Data Quality", "Data Profiling", "Report Writing"],
+      "mapped_roles": ["health_data_analyst", "clinical_data_specialist"],
+      "learning_outcomes": [
+        "Identify healthcare data quality issues",
+        "Create data quality metrics",
+        "Develop remediation strategies",
+        "Document findings professionally"
+      ],
+      "datasets_used": ["Simulated EHR Dataset"],
+      "deliverables": ["Data Quality Report", "Issue Log", "Remediation Plan"]
+    },
+    {
+      "project_id": "HCP-102",
+      "title": "Population Health Dashboard",
+      "domain": "Healthcare Technology",
+      "description": "Build an interactive dashboard for population health analytics showing disease prevalence, health trends, and outcomes by demographic groups.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["Data Visualization", "SQL", "Population Analytics", "Dashboard Tools", "Interpretation"],
+      "mapped_roles": ["health_data_analyst", "population_health_analyst"],
+      "learning_outcomes": [
+        "Aggregate population health data",
+        "Create compelling visualizations",
+        "Identify health disparities",
+        "Support policy decisions"
+      ],
+      "datasets_used": ["Population Health Database"],
+      "deliverables": ["Interactive Dashboard", "Data Documentation", "Insights Report"]
+    },
+    {
+      "project_id": "HCP-103",
+      "title": "Telemedicine System Integration",
+      "domain": "Healthcare Technology",
+      "description": "Design and document integration between a telemedicine platform and existing EHR system including secure data exchange and user workflows.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["System Design", "HL7/FHIR", "Security", "Workflow Mapping", "Documentation"],
+      "mapped_roles": ["clinical_informatics_specialist", "telemedicine_systems_engineer"],
+      "learning_outcomes": [
+        "Design secure integrations",
+        "Map clinical workflows",
+        "Ensure HIPAA compliance",
+        "Document technical architecture"
+      ],
+      "datasets_used": ["Mock EHR Data"],
+      "deliverables": ["Integration Architecture", "Security Plan", "Implementation Guide"]
+    },
+    {
+      "project_id": "HCP-104",
+      "title": "Medical Image Classification",
+      "domain": "Healthcare Technology",
+      "description": "Build a deep learning model for classifying medical images (chest X-rays) demonstrating disease detection capabilities with proper validation and documentation.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 7,
+      "skills_required": ["Deep Learning", "Medical Imaging", "Model Validation", "Ethics", "Documentation"],
+      "mapped_roles": ["healthcare_ml_engineer", "medical_imaging_specialist"],
+      "learning_outcomes": [
+        "Build medical imaging models",
+        "Evaluate clinical performance",
+        "Address model bias",
+        "Document clinical considerations"
+      ],
+      "datasets_used": ["Public Medical Imaging Dataset"],
+      "deliverables": ["Trained Model", "Validation Report", "Clinical Documentation"]
+    },
+    {
+      "project_id": "HCP-105",
+      "title": "DICOM Image Processing Pipeline",
+      "domain": "Healthcare Technology",
+      "description": "Create a pipeline to read, process, and analyze DICOM medical images including preprocessing, annotation, and quality checks.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 5,
+      "skills_required": ["DICOM Standard", "Image Processing", "Python", "Pipeline Design", "Quality Assurance"],
+      "mapped_roles": ["medical_imaging_specialist"],
+      "learning_outcomes": [
+        "Master DICOM format",
+        "Implement image processing",
+        "Build robust pipelines",
+        "Ensure quality and consistency"
+      ],
+      "datasets_used": ["DICOM Sample Images"],
+      "deliverables": ["Processing Pipeline", "Test Reports", "Documentation"]
+    },
+    {
+      "project_id": "HCP-106",
+      "title": "Healthcare Security Audit",
+      "domain": "Healthcare Technology",
+      "description": "Conduct a comprehensive security audit of a healthcare system including vulnerability assessment, compliance evaluation, and risk remediation recommendations.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 5,
+      "skills_required": ["Security Assessment", "HIPAA", "Risk Analysis", "Vulnerability Testing", "Report Writing"],
+      "mapped_roles": ["healthcare_security_analyst"],
+      "learning_outcomes": [
+        "Conduct security assessments",
+        "Identify vulnerabilities",
+        "Evaluate compliance",
+        "Recommend mitigations"
+      ],
+      "datasets_used": ["Security Assessment Framework"],
+      "deliverables": ["Audit Report", "Risk Register", "Remediation Plan"]
+    },
+    {
+      "project_id": "HCP-107",
+      "title": "Cybersecurity Incident Response Plan",
+      "domain": "Healthcare Technology",
+      "description": "Develop a comprehensive incident response plan for a healthcare organization including detection, escalation, containment, and recovery procedures.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 4,
+      "skills_required": ["Incident Response", "Healthcare Security", "Risk Management", "Documentation", "Training"],
+      "mapped_roles": ["healthcare_security_analyst"],
+      "learning_outcomes": [
+        "Design response procedures",
+        "Plan recovery strategies",
+        "Train team members",
+        "Test and improve procedures"
+      ],
+      "datasets_used": ["Security Best Practices"],
+      "deliverables": ["Response Plan Document", "Training Materials", "Testing Checklist"]
+    },
+    {
+      "project_id": "HCP-108",
+      "title": "Clinical Outcomes Analysis",
+      "domain": "Healthcare Technology",
+      "description": "Analyze clinical outcomes data across patient populations to identify improvement opportunities, measure intervention effectiveness, and support quality initiatives.",
+      "difficulty": "Intermediate",
+      "complexity": "Medium",
+      "duration_weeks": 5,
+      "skills_required": ["Outcomes Analysis", "Statistical Methods", "Data Interpretation", "Clinical Knowledge", "Visualization"],
+      "mapped_roles": ["clinical_data_specialist", "population_health_analyst"],
+      "learning_outcomes": [
+        "Analyze clinical outcomes",
+        "Apply statistical tests",
+        "Identify improvement areas",
+        "Create improvement plans"
+      ],
+      "datasets_used": ["Outcomes Dataset"],
+      "deliverables": ["Analysis Report", "Visualizations", "Recommendations"]
+    },
+    {
+      "project_id": "HCP-109",
+      "title": "Healthcare IT Strategy Development",
+      "domain": "Healthcare Technology",
+      "description": "Develop a 3-year healthcare IT strategy aligned with organizational goals including technology roadmap, investment priorities, and implementation plan.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["Strategic Planning", "IT Knowledge", "Healthcare Domain", "Project Management", "Stakeholder Management"],
+      "mapped_roles": ["healthcare_it_manager"],
+      "learning_outcomes": [
+        "Develop IT strategies",
+        "Create technology roadmaps",
+        "Prioritize investments",
+        "Plan implementations"
+      ],
+      "datasets_used": ["Market Research Data"],
+      "deliverables": ["Strategy Document", "Technology Roadmap", "Implementation Plan"]
+    },
+    {
+      "project_id": "AGP-101",
+      "title": "Precision Agriculture Field Trial",
+      "domain": "Agricultural Sciences",
+      "description": "Design and execute a field trial comparing variable rate application vs uniform rates, analyzing yield data and calculating ROI.",
+      "difficulty": "Intermediate",
+      "complexity": "Medium",
+      "duration_weeks": 12,
+      "skills_required": ["Experimental Design", "Field Agronomy", "GIS", "Data Collection", "Statistical Analysis"],
+      "mapped_roles": ["precision_agriculture_specialist"],
+      "learning_outcomes": [
+        "Design controlled trials",
+        "Collect field data",
+        "Analyze results statistically",
+        "Calculate precision farming benefits"
+      ],
+      "datasets_used": ["Field Trial Data"],
+      "deliverables": ["Trial Report", "Yield Maps", "ROI Analysis"]
+    },
+    {
+      "project_id": "AGP-102",
+      "title": "Soil Map Development",
+      "domain": "Agricultural Sciences",
+      "description": "Create a digital soil map from field sampling and remote sensing data, develop management zones, and generate variable rate recommendations.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_covered": ["Soil Sampling", "GIS Mapping", "Spatial Analysis", "Management Zones", "Variable Rate"],
+      "mapped_roles": ["precision_agriculture_specialist", "soil_health_data_analyst"],
+      "learning_outcomes": [
+        "Conduct soil sampling",
+        "Create soil maps",
+        "Develop management zones",
+        "Generate application recommendations"
+      ],
+      "datasets_used": ["Soil Data", "Remote Sensing Imagery"],
+      "deliverables": ["Soil Map", "Management Zones", "Application Recommendations"]
+    },
+    {
+      "project_id": "AGP-103",
+      "title": "Crop Yield Prediction Model",
+      "domain": "Agricultural Sciences",
+      "description": "Build a machine learning model to predict crop yield using weather, soil, management, and historical data with performance validation.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 7,
+      "skills_required": ["Machine Learning", "Agricultural Data", "Feature Engineering", "Model Validation", "Python"],
+      "mapped_roles": ["agricultural_data_scientist"],
+      "learning_outcomes": [
+        "Build predictive models",
+        "Engineer agricultural features",
+        "Validate performance",
+        "Support yield forecasting"
+      ],
+      "datasets_used": ["Agricultural Dataset"],
+      "deliverables": ["Trained Model", "Validation Report", "Prediction API"]
+    },
+    {
+      "project_id": "AGP-104",
+      "title": "Farm Analytics Dashboard",
+      "domain": "Agricultural Sciences",
+      "description": "Create an interactive dashboard showing real-time farm data including weather, soil, crop health, and equipment information with KPI tracking.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["Data Visualization", "Farm Data Integration", "Real-time Systems", "Dashboard Tools", "Analytics"],
+      "mapped_roles": ["agricultural_data_scientist", "crop_analytics_specialist"],
+      "learning_outcomes": [
+        "Integrate farm data sources",
+        "Create meaningful visualizations",
+        "Design effective dashboards",
+        "Support farm decisions"
+      ],
+      "datasets_used": ["Farm IoT Data"],
+      "deliverables": ["Dashboard System", "User Documentation", "Training Materials"]
+    },
+    {
+      "project_id": "AGP-105",
+      "title": "Agricultural IoT System Deployment",
+      "domain": "Agricultural Sciences",
+      "description": "Deploy IoT sensor network on a farm including sensor selection, installation, connectivity, data collection, and integration with farm systems.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 8,
+      "skills_required": ["IoT Systems", "Sensor Technology", "Network Setup", "Data Integration", "Field Work"],
+      "mapped_roles": ["farm_automation_engineer", "agricultural_iot_specialist"],
+      "learning_outcomes": [
+        "Select and deploy sensors",
+        "Establish connectivity",
+        "Collect real-time data",
+        "Integrate with systems"
+      ],
+      "datasets_used": ["Sensor Data"],
+      "deliverables": ["Deployed System", "Setup Documentation", "Maintenance Guide"]
+    },
+    {
+      "project_id": "AGP-106",
+      "title": "Smart Irrigation System Implementation",
+      "domain": "Agricultural Sciences",
+      "description": "Design and implement a smart irrigation system using soil moisture sensors and weather data to optimize water use and reduce waste.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 8,
+      "skills_required": ["Irrigation Design", "Sensor Integration", "Control Systems", "Water Management", "Field Testing"],
+      "mapped_roles": ["smart_irrigation_engineer"],
+      "learning_outcomes": [
+        "Design irrigation systems",
+        "Integrate monitoring",
+        "Implement controls",
+        "Measure water savings"
+      ],
+      "datasets_used": ["Soil Moisture Data"],
+      "deliverables": ["System Design", "Installation Guide", "Performance Report"]
+    },
+    {
+      "project_id": "AGP-107",
+      "title": "AgriTech Startup Plan",
+      "domain": "Agricultural Sciences",
+      "description": "Develop a comprehensive business plan for an AgriTech startup including market analysis, product definition, and go-to-market strategy.",
+      "difficulty": "Intermediate",
+      "complexity": "Medium",
+      "duration_weeks": 5,
+      "skills_required": ["Business Planning", "Market Research", "Product Definition", "Go-to-Market", "Financial Modeling"],
+      "mapped_roles": ["agritech_product_manager"],
+      "learning_outcomes": [
+        "Conduct market analysis",
+        "Define product strategy",
+        "Develop business model",
+        "Plan market entry"
+      ],
+      "datasets_used": ["Market Research Data"],
+      "deliverables": ["Business Plan", "Pitch Deck", "Financial Projections"]
+    },
+    {
+      "project_id": "AGP-108",
+      "title": "Agricultural Product Development",
+      "domain": "Agricultural Sciences",
+      "description": "Lead product development for an AgriTech solution including requirements, prototyping, testing, and farmer feedback integration.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 8,
+      "skills_required": ["Product Management", "Agile Methods", "Farmer Engagement", "Prototyping", "Feedback Integration"],
+      "mapped_roles": ["agritech_product_manager"],
+      "learning_outcomes": [
+        "Gather farmer requirements",
+        "Develop product roadmap",
+        "Manage development process",
+        "Integrate farmer feedback"
+      ],
+      "datasets_used": ["Farmer Survey Data"],
+      "deliverables": ["Product Requirements", "Prototype", "Feedback Report"]
+    },
+    {
+      "project_id": "AGP-109",
+      "title": "Crop Health Monitoring System",
+      "domain": "Agricultural Sciences",
+      "description": "Build a system to monitor crop health using remote sensing and ground truth data, detect stress early, and recommend interventions.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["Remote Sensing", "Image Analysis", "Crop Science", "Monitoring Systems", "Reporting"],
+      "mapped_roles": ["crop_analytics_specialist"],
+      "learning_outcomes": [
+        "Analyze remote sensing data",
+        "Detect crop stress",
+        "Recommend interventions",
+        "Monitor effectiveness"
+      ],
+      "datasets_used": ["Satellite Imagery", "Ground Truth Data"],
+      "deliverables": ["Monitoring System", "Stress Detection Reports", "Intervention Recommendations"]
+    },
+    {
+      "project_id": "AGP-110",
+      "title": "Farm IoT Data Integration Pipeline",
+      "domain": "Agricultural Sciences",
+      "description": "Build data integration pipeline combining data from multiple farm IoT sources, sensors, weather, and equipment into unified platform.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 7,
+      "skills_required": ["Data Integration", "API Development", "IoT Protocols", "Database Design", "Data Quality"],
+      "mapped_roles": ["agricultural_iot_specialist"],
+      "learning_outcomes": [
+        "Design integration architecture",
+        "Implement data pipelines",
+        "Ensure data quality",
+        "Create unified platform"
+      ],
+      "datasets_used": ["IoT Data Streams"],
+      "deliverables": ["Integration Platform", "API Documentation", "Data Quality Report"]
+    },
+    {
+      "project_id": "AGP-111",
+      "title": "Irrigation Management Optimization",
+      "domain": "Agricultural Sciences",
+      "description": "Optimize irrigation schedules and strategies using data analytics to maximize crop production while minimizing water use and costs.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["Irrigation Science", "Data Analytics", "Optimization", "Economics", "Field Testing"],
+      "mapped_roles": ["smart_irrigation_engineer"],
+      "learning_outcomes": [
+        "Optimize irrigation schedules",
+        "Reduce water consumption",
+        "Increase crop yield",
+        "Lower irrigation costs"
+      ],
+      "datasets_used": ["Irrigation and Crop Data"],
+      "deliverables": ["Optimization Report", "Implementation Plan", "Cost-Benefit Analysis"]
+    },
+    {
+      "project_id": "AGP-112",
+      "title": "Agricultural Robotics Development",
+      "domain": "Agricultural Sciences",
+      "description": "Design and prototype an agricultural robot (autonomous vehicle or manipulator) including mechanical design, controls, and field testing.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 10,
+      "skills_required": ["Robotics", "Autonomous Systems", "Mechanical Engineering", "Field Testing", "Documentation"],
+      "mapped_roles": ["agricultural_robotics_engineer"],
+      "learning_outcomes": [
+        "Design farm robots",
+        "Implement autonomous systems",
+        "Test robot performance",
+        "Validate field operations"
+      ],
+      "datasets_used": ["Field Test Data"],
+      "deliverables": ["Robot Design", "Prototype", "Field Test Report"]
+    },
+    {
+      "project_id": "AGP-113",
+      "title": "Autonomous Farm Equipment Testing",
+      "domain": "Agricultural Sciences",
+      "description": "Test and validate autonomous farm equipment or robot in real field conditions, measuring performance, reliability, and safety.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 8,
+      "skills_required": ["Testing Methodology", "Field Work", "Data Collection", "Safety Assessment", "Documentation"],
+      "mapped_roles": ["agricultural_robotics_engineer"],
+      "learning_outcomes": [
+        "Plan testing protocols",
+        "Conduct field tests",
+        "Assess safety",
+        "Validate performance"
+      ],
+      "datasets_used": ["Test Results"],
+      "deliverables": ["Test Report", "Safety Assessment", "Performance Data"]
+    },
+    {
+      "project_id": "AGP-114",
+      "title": "Soil Health Improvement Plan",
+      "domain": "Agricultural Sciences",
+      "description": "Analyze soil health data and develop a multi-year plan to improve soil quality, carbon sequestration, and sustainability.",
+      "difficulty": "Intermediate",
+      "complexity": "Medium",
+      "duration_weeks": 5,
+      "skills_required": ["Soil Science", "Sustainability", "Data Analysis", "Farm Planning", "Reporting"],
+      "mapped_roles": ["soil_health_data_analyst"],
+      "learning_outcomes": [
+        "Assess soil health",
+        "Identify improvement areas",
+        "Plan sustainability practices",
+        "Monitor improvements"
+      ],
+      "datasets_used": ["Soil Test Data"],
+      "deliverables": ["Health Assessment", "Improvement Plan", "Monitoring Strategy"]
+    },
+    {
+      "project_id": "AGP-115",
+      "title": "Regenerative Agriculture Analytics",
+      "domain": "Agricultural Sciences",
+      "description": "Build analytics system to track and measure regenerative agriculture practices and their impact on soil health and sustainability.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["Regenerative Ag Knowledge", "Analytics", "Data Systems", "Sustainability Metrics", "Visualization"],
+      "mapped_roles": ["soil_health_data_analyst"],
+      "learning_outcomes": [
+        "Track regenerative practices",
+        "Measure sustainability impact",
+        "Create metrics dashboards",
+        "Support sustainability goals"
+      ],
+      "datasets_used": ["Practice and Outcome Data"],
+      "deliverables": ["Analytics Platform", "Metrics Dashboard", "Impact Report"]
+    },
+    {
+      "project_id": "UCP-101",
+      "title": "Smart City Sensor Network Design",
+      "domain": "Urban / Smart City Planning",
+      "description": "Design a comprehensive IoT sensor network for a city district covering traffic, air quality, water, and noise monitoring.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["IoT Design", "Sensor Technology", "Network Planning", "Data Architecture", "Documentation"],
+      "mapped_roles": ["smart_city_solutions_architect", "iot_infrastructure_engineer"],
+      "learning_outcomes": [
+        "Design sensor networks",
+        "Select appropriate sensors",
+        "Plan network topology",
+        "Document specifications"
+      ],
+      "datasets_used": ["City Data"],
+      "deliverables": ["Network Design Document", "Sensor Specifications", "Deployment Plan"]
+    },
+    {
+      "project_id": "UCP-102",
+      "title": "Integrated Smart City Platform",
+      "domain": "Urban / Smart City Planning",
+      "description": "Design and prototype an integrated smart city platform connecting multiple systems (traffic, energy, water) into unified management interface.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 8,
+      "skills_required": ["System Architecture", "Data Integration", "UI/UX Design", "API Development", "Documentation"],
+      "mapped_roles": ["smart_city_solutions_architect"],
+      "learning_outcomes": [
+        "Design integrated platforms",
+        "Connect multiple systems",
+        "Create unified interfaces",
+        "Support city operations"
+      ],
+      "datasets_used": ["City Management Data"],
+      "deliverables": ["Platform Architecture", "Prototype", "Integration Guide"]
+    },
+    {
+      "project_id": "UCP-103",
+      "title": "Urban Analytics and Insights Dashboard",
+      "domain": "Urban / Smart City Planning",
+      "description": "Create a comprehensive dashboard analyzing city performance metrics including quality of life, sustainability, economic indicators, and service levels.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["Data Analytics", "Visualization", "Urban Metrics", "Dashboard Tools", "Interpretation"],
+      "mapped_roles": ["urban_data_analyst"],
+      "learning_outcomes": [
+        "Aggregate city data",
+        "Create meaningful metrics",
+        "Build effective dashboards",
+        "Support city decisions"
+      ],
+      "datasets_used": ["City Management Data"],
+      "deliverables": ["Analytics Dashboard", "Metrics Documentation", "Insights Report"]
+    },
+    {
+      "project_id": "UCP-104",
+      "title": "City-wide Sensor Deployment and Management",
+      "domain": "Urban / Smart City Planning",
+      "description": "Deploy and manage a city-wide sensor network including installation, monitoring, maintenance, and data quality assurance.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 10,
+      "skills_required": ["Sensor Deployment", "Network Management", "Field Work", "Data Quality", "Maintenance"],
+      "mapped_roles": ["iot_infrastructure_engineer"],
+      "learning_outcomes": [
+        "Deploy city sensors",
+        "Monitor system health",
+        "Maintain data quality",
+        "Manage operations"
+      ],
+      "datasets_used": ["Sensor Data"],
+      "deliverables": ["Deployment Report", "Operations Manual", "Performance Data"]
+    },
+    {
+      "project_id": "UCP-105",
+      "title": "IoT Network Scalability Study",
+      "domain": "Urban / Smart City Planning",
+      "description": "Study and design scalable IoT network architectures for growing cities with analysis of capacity, performance, and cost implications.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["Network Architecture", "Scalability Analysis", "Cost Modeling", "System Design", "Documentation"],
+      "mapped_roles": ["iot_infrastructure_engineer"],
+      "learning_outcomes": [
+        "Design scalable networks",
+        "Analyze performance",
+        "Model costs",
+        "Plan growth"
+      ],
+      "datasets_used": ["Network Performance Data"],
+      "deliverables": ["Scalability Study", "Architecture Recommendations", "Cost-Benefit Analysis"]
+    },
+    {
+      "project_id": "UCP-106",
+      "title": "Intelligent Traffic Management System",
+      "domain": "Urban / Smart City Planning",
+      "description": "Design and implement a traffic management system with real-time monitoring, signal optimization, incident detection, and congestion management.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 8,
+      "skills_required": ["Traffic Engineering", "Real-time Systems", "Optimization", "Signal Control", "Analytics"],
+      "mapped_roles": ["traffic_management_systems_engineer"],
+      "learning_outcomes": [
+        "Design traffic systems",
+        "Implement signal control",
+        "Detect incidents",
+        "Optimize traffic flow"
+      ],
+      "datasets_used": ["Traffic Data"],
+      "deliverables": ["System Design", "Control Algorithms", "Implementation Guide"]
+    },
+    {
+      "project_id": "UCP-107",
+      "title": "Traffic Flow Optimization and Prediction",
+      "domain": "Urban / Smart City Planning",
+      "description": "Build predictive models and optimization algorithms for traffic flow including demand forecasting, congestion prediction, and route optimization.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 7,
+      "skills_required": ["Machine Learning", "Traffic Analytics", "Optimization", "Forecasting", "Python"],
+      "mapped_roles": ["traffic_management_systems_engineer"],
+      "learning_outcomes": [
+        "Predict traffic demand",
+        "Optimize routes",
+        "Forecast congestion",
+        "Support mobility planning"
+      ],
+      "datasets_used": ["Traffic Dataset"],
+      "deliverables": ["Predictive Model", "Optimization Algorithms", "Testing Report"]
+    },
+    {
+      "project_id": "UCP-108",
+      "title": "Urban Sustainability Metrics and Tracking",
+      "domain": "Urban / Smart City Planning",
+      "description": "Develop sustainability metrics for a city and build systems to track progress toward environmental and social goals.",
+      "difficulty": "Intermediate",
+      "complexity": "Medium",
+      "duration_weeks": 5,
+      "skills_required": ["Sustainability Science", "Metrics Development", "Data Systems", "Visualization", "Goal Setting"],
+      "mapped_roles": ["sustainability_analytics_specialist"],
+      "learning_outcomes": [
+        "Define sustainability metrics",
+        "Track progress",
+        "Analyze environmental impact",
+        "Support sustainability goals"
+      ],
+      "datasets_used": ["Sustainability Data"],
+      "deliverables": ["Metrics Framework", "Tracking System", "Progress Reports"]
+    },
+    {
+      "project_id": "UCP-109",
+      "title": "Urban Carbon Footprint Analysis",
+      "domain": "Urban / Smart City Planning",
+      "description": "Calculate and analyze urban carbon footprint including sources (energy, transportation, waste) and develop reduction strategies.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["Carbon Accounting", "Data Analysis", "GIS", "Lifecycle Assessment", "Visualization"],
+      "mapped_roles": ["sustainability_analytics_specialist"],
+      "learning_outcomes": [
+        "Calculate carbon footprint",
+        "Identify reduction opportunities",
+        "Model interventions",
+        "Track improvements"
+      ],
+      "datasets_used": ["Carbon Emission Data"],
+      "deliverables": ["Carbon Assessment", "Reduction Strategy", "Monitoring Plan"]
+    },
+    {
+      "project_id": "UCP-110",
+      "title": "GIS-Based Urban Planning Analysis",
+      "domain": "Urban / Smart City Planning",
+      "description": "Conduct comprehensive GIS analysis for urban planning including land use, infrastructure, accessibility, and development suitability.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["GIS Analysis", "Urban Planning Knowledge", "Spatial Analysis", "Mapping", "Report Writing"],
+      "mapped_roles": ["gis_spatial_analysis_specialist"],
+      "learning_outcomes": [
+        "Conduct spatial analysis",
+        "Create planning maps",
+        "Assess suitability",
+        "Support planning decisions"
+      ],
+      "datasets_used": ["City GIS Data"],
+      "deliverables": ["Analysis Maps", "Suitability Maps", "Planning Report"]
+    },
+    {
+      "project_id": "UCP-111",
+      "title": "3D Urban Modeling and Visualization",
+      "domain": "Urban / Smart City Planning",
+      "description": "Create 3D models of urban areas for visualization, analysis, and planning support including building characteristics and urban features.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 7,
+      "skills_required": ["3D Modeling", "GIS", "Visualization", "Urban Planning", "Technical Documentation"],
+      "mapped_roles": ["gis_spatial_analysis_specialist"],
+      "learning_outcomes": [
+        "Create 3D city models",
+        "Visualize urban features",
+        "Support planning analysis",
+        "Communicate plans visually"
+      ],
+      "datasets_used": ["Building Data", "Imagery"],
+      "deliverables": ["3D Models", "Visualizations", "Model Documentation"]
+    },
+    {
+      "project_id": "UCP-112",
+      "title": "Smart City Data Platform Architecture",
+      "domain": "Urban / Smart City Planning",
+      "description": "Design scalable data platform architecture for smart cities supporting diverse data sources, real-time processing, and analytics.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 8,
+      "skills_required": ["Big Data Architecture", "Data Engineering", "System Design", "Cloud Technologies", "Documentation"],
+      "mapped_roles": ["smart_city_data_architect"],
+      "learning_outcomes": [
+        "Design data platforms",
+        "Integrate multiple sources",
+        "Enable real-time analytics",
+        "Ensure scalability"
+      ],
+      "datasets_used": ["City Data Streams"],
+      "deliverables": ["Architecture Design", "Implementation Plan", "Technical Specifications"]
+    },
+    {
+      "project_id": "UCP-113",
+      "title": "Data Governance for City Systems",
+      "domain": "Urban / Smart City Planning",
+      "description": "Develop comprehensive data governance framework for a city including data standards, quality management, privacy, and access control.",
+      "difficulty": "Intermediate",
+      "complexity": "Medium",
+      "duration_weeks": 5,
+      "skills_required": ["Data Governance", "Privacy Regulations", "City Planning Knowledge", "Documentation", "Stakeholder Management"],
+      "mapped_roles": ["smart_city_data_architect"],
+      "learning_outcomes": [
+        "Design governance frameworks",
+        "Establish data standards",
+        "Ensure privacy compliance",
+        "Manage data quality"
+      ],
+      "datasets_used": ["City Data Inventory"],
+      "deliverables": ["Governance Framework", "Standards Document", "Compliance Plan"]
+    },
+    {
+      "project_id": "UCP-114",
+      "title": "Smart City Service Portal Development",
+      "domain": "Urban / Smart City Planning",
+      "description": "Develop a citizen service portal integrating multiple city services (permits, payments, reporting, information) with mobile and web interfaces.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 8,
+      "skills_required": ["Application Development", "UI/UX Design", "API Integration", "Security", "User Testing"],
+      "mapped_roles": ["urban_iot_developer"],
+      "learning_outcomes": [
+        "Build service portals",
+        "Integrate services",
+        "Design user experience",
+        "Ensure accessibility"
+      ],
+      "datasets_used": ["Service Data"],
+      "deliverables": ["Portal Application", "API Documentation", "User Testing Report"]
+    },
+    {
+      "project_id": "UCP-115",
+      "title": "Real-time City Operations Dashboard",
+      "domain": "Urban / Smart City Planning",
+      "description": "Build a real-time operations dashboard for city management providing live status of critical infrastructure, services, and systems.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["Real-time Systems", "Data Visualization", "IoT Integration", "Dashboard Tools", "Operations Knowledge"],
+      "mapped_roles": ["urban_iot_developer"],
+      "learning_outcomes": [
+        "Build real-time systems",
+        "Display live information",
+        "Support operations",
+        "Enable quick response"
+      ],
+      "datasets_used": ["Real-time City Data"],
+      "deliverables": ["Operations Dashboard", "System Documentation", "Training Materials"]
+    },
+    {
+      "project_id": "UCP-116",
+      "title": "Smart Grid Implementation and Management",
+      "domain": "Urban / Smart City Planning",
+      "description": "Design and implement a smart grid system for a city district including monitoring, control, demand response, and renewable integration.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 8,
+      "skills_required": ["Smart Grid Technology", "Power Systems", "Control Systems", "Analytics", "Renewable Integration"],
+      "mapped_roles": ["energy_systems_engineer"],
+      "learning_outcomes": [
+        "Design smart grids",
+        "Implement controls",
+        "Manage demand response",
+        "Integrate renewables"
+      ],
+      "datasets_used": ["Grid Data"],
+      "deliverables": ["Grid Design", "Control System", "Operations Manual"]
+    },
+    {
+      "project_id": "UCP-117",
+      "title": "Energy Efficiency Analysis and Optimization",
+      "domain": "Urban / Smart City Planning",
+      "description": "Conduct comprehensive energy efficiency analysis of city systems and develop strategies for significant energy reduction.",
+      "difficulty": "Advanced",
+      "complexity": "High",
+      "duration_weeks": 6,
+      "skills_required": ["Energy Analysis", "Building Science", "Economics", "Optimization", "Visualization"],
+      "mapped_roles": ["energy_systems_engineer"],
+      "learning_outcomes": [
+        "Analyze energy consumption",
+        "Identify savings opportunities",
+        "Calculate economics",
+        "Implement improvements"
+      ],
+      "datasets_used": ["Energy Dataset"],
+      "deliverables": ["Efficiency Analysis", "Improvement Plan", "ROI Analysis"]
+    }
+  ]
+}

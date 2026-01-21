@@ -1,0 +1,1092 @@
+{
+  "courses": [
+    {
+      "course_id": "HC-101",
+      "title": "Healthcare Data Fundamentals",
+      "domain": "Healthcare Technology",
+      "description": "Introduction to healthcare data types, structures, and standards including EHR, medical records, and healthcare datasets.",
+      "difficulty": "Beginner",
+      "duration_weeks": 4,
+      "skills_covered": ["Healthcare Data Types", "EHR Systems", "Data Organization", "Healthcare Terminology"],
+      "mapped_roles": ["health_data_analyst", "clinical_data_specialist", "population_health_analyst"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Understand healthcare data structures",
+        "Navigate EHR systems",
+        "Learn healthcare terminology",
+        "Identify data quality issues"
+      ]
+    },
+    {
+      "course_id": "HC-102",
+      "title": "HL7 and FHIR Standards Mastery",
+      "domain": "Healthcare Technology",
+      "description": "Deep dive into HL7 and FHIR standards for healthcare data exchange and interoperability.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["HL7 Protocol", "FHIR Standards", "Data Exchange", "Interoperability", "Healthcare Messaging"],
+      "mapped_roles": ["health_data_analyst", "clinical_informatics_specialist", "clinical_data_specialist"],
+      "prerequisites": ["HC-101"],
+      "learning_outcomes": [
+        "Master HL7 message formats",
+        "Understand FHIR resource models",
+        "Implement data exchange protocols",
+        "Ensure interoperability standards"
+      ]
+    },
+    {
+      "course_id": "HC-103",
+      "title": "ML Applications in Healthcare",
+      "domain": "Healthcare Technology",
+      "description": "Machine learning concepts and applications specific to healthcare including predictive diagnostics and treatment optimization.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Predictive Modeling", "Clinical ML", "Model Evaluation", "Healthcare AI Ethics", "Data-Driven Diagnostics"],
+      "mapped_roles": ["healthcare_ml_engineer", "population_health_analyst"],
+      "prerequisites": ["HC-101"],
+      "learning_outcomes": [
+        "Build predictive healthcare models",
+        "Evaluate model clinical utility",
+        "Address ethical considerations",
+        "Deploy models responsibly"
+      ]
+    },
+    {
+      "course_id": "HC-104",
+      "title": "Medical Imaging and Image Processing",
+      "domain": "Healthcare Technology",
+      "description": "Fundamentals of medical imaging modalities (CT, MRI, X-ray) and image processing techniques for clinical analysis.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Medical Image Formats", "DICOM Standard", "Image Processing", "Computer Vision Basics", "Imaging Analysis"],
+      "mapped_roles": ["medical_imaging_specialist", "healthcare_ml_engineer"],
+      "prerequisites": ["HC-101"],
+      "learning_outcomes": [
+        "Understand medical imaging modalities",
+        "Process DICOM images",
+        "Apply image analysis techniques",
+        "Support radiologist workflows"
+      ]
+    },
+    {
+      "course_id": "HC-105",
+      "title": "Healthcare Systems Integration",
+      "domain": "Healthcare Technology",
+      "description": "Design and implementation of integrated healthcare IT systems including EHR, clinical decision support, and workflow management.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 7,
+      "skills_covered": ["System Architecture", "Clinical Workflow", "EHR Integration", "Interoperability", "System Design"],
+      "mapped_roles": ["clinical_informatics_specialist", "telemedicine_systems_engineer"],
+      "prerequisites": ["HC-102"],
+      "learning_outcomes": [
+        "Design integrated healthcare systems",
+        "Map clinical workflows",
+        "Integrate EHR components",
+        "Manage system implementations"
+      ]
+    },
+    {
+      "course_id": "HC-106",
+      "title": "Healthcare Compliance and Regulations",
+      "domain": "Healthcare Technology",
+      "description": "Comprehensive coverage of HIPAA, healthcare regulations, and compliance frameworks for healthcare IT systems.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 5,
+      "skills_covered": ["HIPAA Compliance", "Healthcare Regulations", "Privacy Standards", "Security Frameworks", "Audit Trails"],
+      "mapped_roles": ["clinical_informatics_specialist", "healthcare_security_analyst"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Understand HIPAA requirements",
+        "Implement compliance controls",
+        "Conduct compliance audits",
+        "Maintain audit trails"
+      ]
+    },
+    {
+      "course_id": "HC-107",
+      "title": "Deep Learning for Medical Imaging",
+      "domain": "Healthcare Technology",
+      "description": "Advanced deep learning techniques for medical image analysis including CNNs and segmentation models.",
+      "difficulty": "Advanced",
+      "duration_weeks": 9,
+      "skills_covered": ["Deep Learning", "CNN Architecture", "Image Segmentation", "Classification Models", "Clinical Validation"],
+      "mapped_roles": ["healthcare_ml_engineer", "medical_imaging_specialist"],
+      "prerequisites": ["HC-103", "HC-104"],
+      "learning_outcomes": [
+        "Build CNN architectures for imaging",
+        "Implement segmentation models",
+        "Validate clinical performance",
+        "Deploy imaging AI systems"
+      ]
+    },
+    {
+      "course_id": "HC-108",
+      "title": "DICOM and Medical Image Standards",
+      "domain": "Healthcare Technology",
+      "description": "In-depth study of DICOM standard, medical image formats, and imaging workflows in healthcare systems.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 5,
+      "skills_covered": ["DICOM Standard", "Medical Image Formats", "Image Metadata", "Imaging Workflows", "PACS Systems"],
+      "mapped_roles": ["medical_imaging_specialist"],
+      "prerequisites": ["HC-104"],
+      "learning_outcomes": [
+        "Master DICOM standard",
+        "Work with medical image files",
+        "Integrate with PACS systems",
+        "Manage imaging workflows"
+      ]
+    },
+    {
+      "course_id": "HC-109",
+      "title": "Advanced Image Analysis Techniques",
+      "domain": "Healthcare Technology",
+      "description": "Advanced techniques for medical image analysis including registration, reconstruction, and 3D visualization.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Image Registration", "3D Reconstruction", "Visualization Techniques", "Image Fusion", "Advanced Processing"],
+      "mapped_roles": ["medical_imaging_specialist"],
+      "prerequisites": ["HC-108"],
+      "learning_outcomes": [
+        "Implement image registration algorithms",
+        "Create 3D reconstructions",
+        "Develop visualization pipelines",
+        "Support surgical planning"
+      ]
+    },
+    {
+      "course_id": "HC-110",
+      "title": "Telemedicine Technology and Architecture",
+      "domain": "Healthcare Technology",
+      "description": "Design and implementation of telemedicine platforms including real-time communication, security, and integration.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 7,
+      "skills_covered": ["Real-time Communication", "Telemedicine Platforms", "Video Conferencing", "Secure Data Transmission", "System Architecture"],
+      "mapped_roles": ["telemedicine_systems_engineer"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Design telemedicine platforms",
+        "Implement secure communication",
+        "Integrate with EHR systems",
+        "Ensure reliability and quality"
+      ]
+    },
+    {
+      "course_id": "HC-111",
+      "title": "Healthcare Data Security and Privacy",
+      "domain": "Healthcare Technology",
+      "description": "Comprehensive coverage of security threats, privacy protection, and security architecture for healthcare systems.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["Data Encryption", "Access Control", "Privacy Protection", "Threat Detection", "Security Architecture"],
+      "mapped_roles": ["healthcare_security_analyst", "telemedicine_systems_engineer"],
+      "prerequisites": ["HC-106"],
+      "learning_outcomes": [
+        "Implement healthcare security controls",
+        "Encrypt sensitive data",
+        "Detect security threats",
+        "Manage access controls"
+      ]
+    },
+    {
+      "course_id": "HC-112",
+      "title": "Cybersecurity for Healthcare Systems",
+      "domain": "Healthcare Technology",
+      "description": "Advanced cybersecurity practices, threat modeling, and incident response for healthcare environments.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Threat Modeling", "Vulnerability Assessment", "Incident Response", "Penetration Testing", "Security Monitoring"],
+      "mapped_roles": ["healthcare_security_analyst"],
+      "prerequisites": ["HC-111"],
+      "learning_outcomes": [
+        "Conduct vulnerability assessments",
+        "Perform penetration testing",
+        "Develop incident response plans",
+        "Monitor security threats"
+      ]
+    },
+    {
+      "course_id": "HC-113",
+      "title": "Clinical Data Management and Governance",
+      "domain": "Healthcare Technology",
+      "description": "Data governance frameworks, data quality management, and clinical data management best practices.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["Data Governance", "Data Quality", "Clinical Data Standards", "Metadata Management", "Data Stewardship"],
+      "mapped_roles": ["clinical_data_specialist"],
+      "prerequisites": ["HC-102"],
+      "learning_outcomes": [
+        "Implement data governance frameworks",
+        "Ensure data quality",
+        "Create metadata standards",
+        "Manage data stewardship"
+      ]
+    },
+    {
+      "course_id": "HC-114",
+      "title": "Population Health Analytics",
+      "domain": "Healthcare Technology",
+      "description": "Techniques for analyzing population-level health data to identify trends, disparities, and intervention opportunities.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 7,
+      "skills_covered": ["Population Analysis", "Epidemiological Methods", "Health Metrics", "Trend Identification", "Health Equity"],
+      "mapped_roles": ["population_health_analyst"],
+      "prerequisites": ["HC-101"],
+      "learning_outcomes": [
+        "Analyze population health data",
+        "Identify health disparities",
+        "Develop health metrics",
+        "Support prevention initiatives"
+      ]
+    },
+    {
+      "course_id": "HC-115",
+      "title": "Advanced Population Health Modeling",
+      "domain": "Healthcare Technology",
+      "description": "Advanced statistical and modeling techniques for population health analytics and forecasting.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Statistical Modeling", "Time Series Analysis", "Forecasting", "Simulation Models", "Health Economics"],
+      "mapped_roles": ["population_health_analyst"],
+      "prerequisites": ["HC-114"],
+      "learning_outcomes": [
+        "Build population health models",
+        "Forecast health outcomes",
+        "Conduct health impact analysis",
+        "Support policy decisions"
+      ]
+    },
+    {
+      "course_id": "HC-116",
+      "title": "Healthcare IT Leadership and Management",
+      "domain": "Healthcare Technology",
+      "description": "Leadership frameworks for managing healthcare IT teams, projects, and strategic initiatives.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["Leadership Skills", "Project Management", "Team Management", "Strategic Planning", "Vendor Management"],
+      "mapped_roles": ["healthcare_it_manager"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Lead healthcare IT teams",
+        "Manage IT projects",
+        "Develop IT strategy",
+        "Manage vendor relationships"
+      ]
+    },
+    {
+      "course_id": "HC-117",
+      "title": "EHR Implementation and Optimization",
+      "domain": "Healthcare Technology",
+      "description": "Best practices for EHR selection, implementation, optimization, and change management.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 7,
+      "skills_covered": ["EHR Selection", "Implementation Planning", "Change Management", "Workflow Optimization", "User Adoption"],
+      "mapped_roles": ["healthcare_it_manager"],
+      "prerequisites": ["HC-105"],
+      "learning_outcomes": [
+        "Plan EHR implementations",
+        "Manage change initiatives",
+        "Optimize user workflows",
+        "Support user adoption"
+      ]
+    },
+    {
+      "course_id": "AG-101",
+      "title": "Precision Agriculture Fundamentals",
+      "domain": "Agricultural Sciences",
+      "description": "Introduction to precision agriculture concepts, technologies, and data-driven farming practices.",
+      "difficulty": "Beginner",
+      "duration_weeks": 5,
+      "skills_covered": ["Precision Farming Concepts", "Variable Rate Technology", "Data Collection", "Site-Specific Management", "ROI Analysis"],
+      "mapped_roles": ["precision_agriculture_specialist", "crop_analytics_specialist"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Understand precision farming principles",
+        "Learn variable rate technology",
+        "Analyze field variability",
+        "Calculate precision farming ROI"
+      ]
+    },
+    {
+      "course_id": "AG-102",
+      "title": "GIS for Agriculture",
+      "domain": "Agricultural Sciences",
+      "description": "Geospatial Information Systems for agricultural applications including field mapping and spatial analysis.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["GIS Software", "Field Mapping", "Spatial Analysis", "Remote Sensing Basics", "Layer Management"],
+      "mapped_roles": ["precision_agriculture_specialist", "crop_analytics_specialist"],
+      "prerequisites": ["AG-101"],
+      "learning_outcomes": [
+        "Use GIS for field mapping",
+        "Create agricultural layers",
+        "Perform spatial analysis",
+        "Interpret satellite imagery"
+      ]
+    },
+    {
+      "course_id": "AG-103",
+      "title": "Soil Analysis and Management",
+      "domain": "Agricultural Sciences",
+      "description": "Soil science fundamentals, soil sampling, and nutrient management strategies based on soil data.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["Soil Sampling", "Soil Properties", "Nutrient Management", "Soil Health Assessment", "Variable Rate Application"],
+      "mapped_roles": ["precision_agriculture_specialist", "soil_health_data_analyst"],
+      "prerequisites": ["AG-101"],
+      "learning_outcomes": [
+        "Conduct soil sampling",
+        "Analyze soil properties",
+        "Develop nutrient plans",
+        "Monitor soil health"
+      ]
+    },
+    {
+      "course_id": "AG-104",
+      "title": "Agricultural Data Science Fundamentals",
+      "domain": "Agricultural Sciences",
+      "description": "Data science basics applied to agriculture including data collection, cleaning, and exploratory analysis.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 7,
+      "skills_covered": ["Data Collection", "Data Cleaning", "Exploratory Analysis", "Statistical Methods", "Data Visualization"],
+      "mapped_roles": ["agricultural_data_scientist", "crop_analytics_specialist"],
+      "prerequisites": ["AG-101"],
+      "learning_outcomes": [
+        "Collect agricultural data",
+        "Clean and prepare datasets",
+        "Perform exploratory analysis",
+        "Create data visualizations"
+      ]
+    },
+    {
+      "course_id": "AG-105",
+      "title": "Predictive Modeling for Agriculture",
+      "domain": "Agricultural Sciences",
+      "description": "Building predictive models for yield prediction, crop disease forecasting, and farm optimization.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Yield Prediction", "Pest/Disease Forecasting", "Regression Modeling", "Classification Models", "Model Validation"],
+      "mapped_roles": ["agricultural_data_scientist", "crop_analytics_specialist"],
+      "prerequisites": ["AG-104"],
+      "learning_outcomes": [
+        "Build yield prediction models",
+        "Forecast crop disease",
+        "Create optimization models",
+        "Validate model performance"
+      ]
+    },
+    {
+      "course_id": "AG-106",
+      "title": "Advanced Agricultural Analytics",
+      "domain": "Agricultural Sciences",
+      "description": "Advanced analytics techniques including time series analysis, machine learning, and actionable insights generation.",
+      "difficulty": "Advanced",
+      "duration_weeks": 9,
+      "skills_covered": ["Time Series Analysis", "Machine Learning", "Pattern Recognition", "Prescriptive Analytics", "Decision Support"],
+      "mapped_roles": ["agricultural_data_scientist"],
+      "prerequisites": ["AG-105"],
+      "learning_outcomes": [
+        "Implement advanced analytics",
+        "Analyze temporal patterns",
+        "Generate actionable insights",
+        "Support farm management decisions"
+      ]
+    },
+    {
+      "course_id": "AG-107",
+      "title": "Farm Automation Systems",
+      "domain": "Agricultural Sciences",
+      "description": "Automation technologies for farms including automated irrigation, guidance systems, and equipment integration.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 7,
+      "skills_covered": ["Automation Systems", "Irrigation Automation", "GPS Guidance", "Equipment Integration", "System Control"],
+      "mapped_roles": ["farm_automation_engineer", "smart_irrigation_engineer"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Design farm automation systems",
+        "Implement guidance systems",
+        "Automate irrigation",
+        "Integrate farm equipment"
+      ]
+    },
+    {
+      "course_id": "AG-108",
+      "title": "IoT Sensors and Networks for Agriculture",
+      "domain": "Agricultural Sciences",
+      "description": "IoT sensor deployment, wireless networks, and data collection infrastructure for farms.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["IoT Sensors", "Wireless Networks", "Data Logging", "Edge Computing", "Sensor Calibration"],
+      "mapped_roles": ["agricultural_iot_specialist", "farm_automation_engineer"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Deploy agricultural sensors",
+        "Establish wireless networks",
+        "Configure data logging",
+        "Maintain sensor systems"
+      ]
+    },
+    {
+      "course_id": "AG-109",
+      "title": "Smart Irrigation Engineering",
+      "domain": "Agricultural Sciences",
+      "description": "Design and implementation of smart irrigation systems using soil moisture sensors and weather data.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 7,
+      "skills_covered": ["Irrigation Design", "Soil Moisture Monitoring", "Weather-Based Irrigation", "Water Efficiency", "System Optimization"],
+      "mapped_roles": ["smart_irrigation_engineer", "farm_automation_engineer"],
+      "prerequisites": ["AG-103", "AG-107"],
+      "learning_outcomes": [
+        "Design smart irrigation systems",
+        "Monitor soil moisture",
+        "Optimize water usage",
+        "Implement weather-based control"
+      ]
+    },
+    {
+      "course_id": "AG-110",
+      "title": "AgriTech Product Management",
+      "domain": "Agricultural Sciences",
+      "description": "Product management for agricultural technology including market analysis, farmer needs assessment, and roadmap development.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["Market Analysis", "Customer Discovery", "Product Roadmap", "Agile Methods", "Stakeholder Management"],
+      "mapped_roles": ["agritech_product_manager"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Understand agricultural markets",
+        "Assess farmer needs",
+        "Develop product roadmaps",
+        "Manage stakeholders"
+      ]
+    },
+    {
+      "course_id": "AG-111",
+      "title": "AgriTech Entrepreneurship",
+      "domain": "Agricultural Sciences",
+      "description": "Building and scaling AgriTech startups including business models, funding, and market entry strategies.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 7,
+      "skills_covered": ["Business Model Design", "Fundraising", "Market Entry", "Adoption Strategies", "Scaling"],
+      "mapped_roles": ["agritech_product_manager"],
+      "prerequisites": ["AG-110"],
+      "learning_outcomes": [
+        "Design agricultural business models",
+        "Develop funding strategies",
+        "Execute market entry",
+        "Scale AgriTech solutions"
+      ]
+    },
+    {
+      "course_id": "AG-112",
+      "title": "Crop Monitoring and Analytics",
+      "domain": "Agricultural Sciences",
+      "description": "Using remote sensing and in-field monitoring to track crop health, growth, and stress indicators.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["Remote Sensing", "NDVI Analysis", "Crop Stress Detection", "Growth Stage Monitoring", "Actionable Insights"],
+      "mapped_roles": ["crop_analytics_specialist"],
+      "prerequisites": ["AG-102"],
+      "learning_outcomes": [
+        "Analyze multispectral imagery",
+        "Calculate vegetation indices",
+        "Detect crop stress",
+        "Monitor growth stages"
+      ]
+    },
+    {
+      "course_id": "AG-113",
+      "title": "IoT Data Integration for Farms",
+      "domain": "Agricultural Sciences",
+      "description": "Integrating data from multiple IoT sources including sensors, weather stations, and equipment into farm management systems.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["Data Integration", "API Development", "Real-time Data Processing", "Data Storage", "System Architecture"],
+      "mapped_roles": ["agricultural_iot_specialist"],
+      "prerequisites": ["AG-108"],
+      "learning_outcomes": [
+        "Integrate multiple data sources",
+        "Build farm management systems",
+        "Process real-time data",
+        "Create unified data platforms"
+      ]
+    },
+    {
+      "course_id": "AG-114",
+      "title": "Edge Computing for Agriculture",
+      "domain": "Agricultural Sciences",
+      "description": "Edge computing architectures for farm IoT systems enabling real-time processing and offline capability.",
+      "difficulty": "Advanced",
+      "duration_weeks": 7,
+      "skills_covered": ["Edge Architecture", "Local Processing", "Real-time Analytics", "Connectivity Management", "System Resilience"],
+      "mapped_roles": ["agricultural_iot_specialist"],
+      "prerequisites": ["AG-113"],
+      "learning_outcomes": [
+        "Design edge computing systems",
+        "Implement real-time processing",
+        "Handle offline scenarios",
+        "Ensure system resilience"
+      ]
+    },
+    {
+      "course_id": "AG-115",
+      "title": "Soil Water Relationships and Management",
+      "domain": "Agricultural Sciences",
+      "description": "Deep understanding of soil-water dynamics and their impact on crop production and irrigation management.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 5,
+      "skills_covered": ["Soil Hydrology", "Water Availability", "Plant Water Stress", "Irrigation Scheduling", "Soil-Plant-Atmosphere Continuum"],
+      "mapped_roles": ["smart_irrigation_engineer", "soil_health_data_analyst"],
+      "prerequisites": ["AG-103"],
+      "learning_outcomes": [
+        "Understand soil-water relationships",
+        "Calculate water availability",
+        "Schedule irrigation optimally",
+        "Manage plant water stress"
+      ]
+    },
+    {
+      "course_id": "AG-116",
+      "title": "Precision Irrigation Management",
+      "domain": "Agricultural Sciences",
+      "description": "Advanced irrigation management using data analytics, remote sensing, and sensor networks for optimal water use.",
+      "difficulty": "Advanced",
+      "duration_weeks": 7,
+      "skills_covered": ["Precision Irrigation", "Data-Driven Decisions", "Water Use Efficiency", "Subsurface Drip", "System Optimization"],
+      "mapped_roles": ["smart_irrigation_engineer"],
+      "prerequisites": ["AG-115"],
+      "learning_outcomes": [
+        "Implement precision irrigation",
+        "Optimize water distribution",
+        "Reduce water waste",
+        "Increase crop yields"
+      ]
+    },
+    {
+      "course_id": "AG-117",
+      "title": "Robotics for Agriculture",
+      "domain": "Agricultural Sciences",
+      "description": "Agricultural robotics including autonomous vehicles, robotic arms, and task-specific farm robots.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Autonomous Vehicles", "Robotic Systems", "Computer Vision for Robotics", "Task Planning", "Field Operations"],
+      "mapped_roles": ["agricultural_robotics_engineer"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Design agricultural robots",
+        "Implement autonomous systems",
+        "Apply computer vision to robotics",
+        "Test robot performance"
+      ]
+    },
+    {
+      "course_id": "AG-118",
+      "title": "Advanced Agricultural Robotics",
+      "domain": "Agricultural Sciences",
+      "description": "Advanced robotics applications for weeding, harvesting, phenotyping, and other precision farm tasks.",
+      "difficulty": "Advanced",
+      "duration_weeks": 9,
+      "skills_covered": ["Task-Specific Robots", "Machine Learning for Robotics", "Precision Operations", "Safety Systems", "Integration Testing"],
+      "mapped_roles": ["agricultural_robotics_engineer"],
+      "prerequisites": ["AG-117"],
+      "learning_outcomes": [
+        "Build task-specific robots",
+        "Implement ML for robot intelligence",
+        "Test robot safety",
+        "Deploy robots in fields"
+      ]
+    },
+    {
+      "course_id": "AG-119",
+      "title": "Soil Science and Analysis",
+      "domain": "Agricultural Sciences",
+      "description": "Advanced soil science including soil formation, properties, and analysis for sustainable agriculture.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["Soil Properties", "Soil Classification", "Analytical Methods", "Soil Microbes", "Sustainable Soil Management"],
+      "mapped_roles": ["soil_health_data_analyst"],
+      "prerequisites": ["AG-103"],
+      "learning_outcomes": [
+        "Classify and analyze soils",
+        "Assess soil health",
+        "Apply sustainable practices",
+        "Support regenerative agriculture"
+      ]
+    },
+    {
+      "course_id": "AG-120",
+      "title": "Digital Soil Mapping",
+      "domain": "Agricultural Sciences",
+      "description": "Creating digital soil maps using field data, remote sensing, and spatial modeling for site-specific management.",
+      "difficulty": "Advanced",
+      "duration_weeks": 7,
+      "skills_covered": ["Soil Sampling Strategy", "Digital Mapping", "Spatial Modeling", "Predictive Mapping", "Variable Rate Application"],
+      "mapped_roles": ["soil_health_data_analyst"],
+      "prerequisites": ["AG-102", "AG-119"],
+      "learning_outcomes": [
+        "Conduct strategic soil sampling",
+        "Create digital soil maps",
+        "Develop management zones",
+        "Guide variable rate inputs"
+      ]
+    },
+    {
+      "course_id": "UC-101",
+      "title": "Smart City Fundamentals",
+      "domain": "Urban / Smart City Planning",
+      "description": "Introduction to smart city concepts, technologies, and frameworks for sustainable urban development.",
+      "difficulty": "Beginner",
+      "duration_weeks": 5,
+      "skills_covered": ["Smart City Concepts", "IoT in Cities", "Data-Driven Governance", "Sustainability", "Urban Technology"],
+      "mapped_roles": ["smart_city_solutions_architect", "urban_data_analyst"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Understand smart city principles",
+        "Learn IoT urban applications",
+        "Explore sustainability initiatives",
+        "Identify city technology needs"
+      ]
+    },
+    {
+      "course_id": "UC-102",
+      "title": "IoT Infrastructure for Smart Cities",
+      "domain": "Urban / Smart City Planning",
+      "description": "Designing and deploying city-wide IoT infrastructure including sensors, connectivity, and data management.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 7,
+      "skills_covered": ["Sensor Networks", "Urban Connectivity", "Data Collection", "Infrastructure Planning", "System Monitoring"],
+      "mapped_roles": ["smart_city_solutions_architect", "iot_infrastructure_engineer"],
+      "prerequisites": ["UC-101"],
+      "learning_outcomes": [
+        "Design IoT city networks",
+        "Deploy sensor systems",
+        "Establish connectivity",
+        "Monitor infrastructure health"
+      ]
+    },
+    {
+      "course_id": "UC-103",
+      "title": "Smart City Solution Design",
+      "domain": "Urban / Smart City Planning",
+      "description": "End-to-end design of smart city solutions addressing multiple urban challenges with integrated technologies.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Solution Architecture", "Systems Integration", "Stakeholder Engagement", "Sustainability Impact", "Scalability"],
+      "mapped_roles": ["smart_city_solutions_architect"],
+      "prerequisites": ["UC-102"],
+      "learning_outcomes": [
+        "Design integrated solutions",
+        "Address city challenges",
+        "Manage stakeholders",
+        "Plan for scalability"
+      ]
+    },
+    {
+      "course_id": "UC-104",
+      "title": "Urban Data Analytics",
+      "domain": "Urban / Smart City Planning",
+      "description": "Analyzing urban data for insights on traffic, energy, environment, and citizen services.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["Urban Data Analysis", "Trend Identification", "Pattern Recognition", "Visualization", "Actionable Insights"],
+      "mapped_roles": ["urban_data_analyst"],
+      "prerequisites": ["UC-101"],
+      "learning_outcomes": [
+        "Analyze urban datasets",
+        "Identify city trends",
+        "Create data dashboards",
+        "Support city planning"
+      ]
+    },
+    {
+      "course_id": "UC-105",
+      "title": "Real-time Urban Data Processing",
+      "domain": "Urban / Smart City Planning",
+      "description": "Real-time processing of urban data streams for immediate insights and responsive city management.",
+      "difficulty": "Advanced",
+      "duration_weeks": 7,
+      "skills_covered": ["Stream Processing", "Real-time Analytics", "Complex Event Processing", "Time Series Analysis", "Alert Systems"],
+      "mapped_roles": ["urban_data_analyst"],
+      "prerequisites": ["UC-104"],
+      "learning_outcomes": [
+        "Process real-time data",
+        "Detect anomalies",
+        "Generate alerts",
+        "Support decision-making"
+      ]
+    },
+    {
+      "course_id": "UC-106",
+      "title": "Advanced Urban Analytics and Forecasting",
+      "domain": "Urban / Smart City Planning",
+      "description": "Advanced statistical and ML techniques for urban forecasting including demand prediction and scenario modeling.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Forecasting Methods", "Time Series Modeling", "Machine Learning", "Scenario Planning", "Urban Simulation"],
+      "mapped_roles": ["urban_data_analyst"],
+      "prerequisites": ["UC-105"],
+      "learning_outcomes": [
+        "Build urban forecasting models",
+        "Predict service demand",
+        "Model urban scenarios",
+        "Support strategic planning"
+      ]
+    },
+    {
+      "course_id": "UC-107",
+      "title": "IoT Architecture and Design",
+      "domain": "Urban / Smart City Planning",
+      "description": "Designing scalable IoT architectures for large-scale urban deployments with focus on reliability and security.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["System Architecture", "Scalable Design", "Network Topology", "Data Security", "Maintenance Planning"],
+      "mapped_roles": ["iot_infrastructure_engineer"],
+      "prerequisites": ["UC-102"],
+      "learning_outcomes": [
+        "Design scalable IoT systems",
+        "Plan network topology",
+        "Implement security",
+        "Ensure system resilience"
+      ]
+    },
+    {
+      "course_id": "UC-108",
+      "title": "Sensor Networks and Management",
+      "domain": "Urban / Smart City Planning",
+      "description": "Deploying and managing large-scale sensor networks in urban environments including installation and maintenance.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["Sensor Deployment", "Network Management", "Maintenance Procedures", "Data Quality", "System Monitoring"],
+      "mapped_roles": ["iot_infrastructure_engineer"],
+      "prerequisites": ["UC-102"],
+      "learning_outcomes": [
+        "Deploy urban sensors",
+        "Manage sensor networks",
+        "Maintain system health",
+        "Ensure data quality"
+      ]
+    },
+    {
+      "course_id": "UC-109",
+      "title": "Edge and Fog Computing for Smart Cities",
+      "domain": "Urban / Smart City Planning",
+      "description": "Edge and fog computing architectures for distributed processing of urban IoT data.",
+      "difficulty": "Advanced",
+      "duration_weeks": 7,
+      "skills_covered": ["Edge Computing", "Fog Architecture", "Distributed Processing", "Latency Management", "Resource Optimization"],
+      "mapped_roles": ["iot_infrastructure_engineer"],
+      "prerequisites": ["UC-107"],
+      "learning_outcomes": [
+        "Design edge computing systems",
+        "Implement distributed processing",
+        "Optimize latency",
+        "Manage computational resources"
+      ]
+    },
+    {
+      "course_id": "UC-110",
+      "title": "Intelligent Traffic Management Systems",
+      "domain": "Urban / Smart City Planning",
+      "description": "Building intelligent traffic management systems using real-time data and optimization algorithms.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Traffic Signal Control", "Congestion Management", "Real-time Optimization", "Incident Detection", "Mobility Analytics"],
+      "mapped_roles": ["traffic_management_systems_engineer"],
+      "prerequisites": ["UC-104"],
+      "learning_outcomes": [
+        "Design traffic systems",
+        "Implement signal optimization",
+        "Detect traffic incidents",
+        "Improve city mobility"
+      ]
+    },
+    {
+      "course_id": "UC-111",
+      "title": "Advanced Traffic Analytics and Prediction",
+      "domain": "Urban / Smart City Planning",
+      "description": "Forecasting traffic patterns, demand prediction, and route optimization for urban mobility.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Traffic Prediction", "Demand Forecasting", "Route Optimization", "Congestion Modeling", "Mobility Planning"],
+      "mapped_roles": ["traffic_management_systems_engineer"],
+      "prerequisites": ["UC-110"],
+      "learning_outcomes": [
+        "Forecast traffic demand",
+        "Optimize routing",
+        "Predict congestion",
+        "Support mobility planning"
+      ]
+    },
+    {
+      "course_id": "UC-112",
+      "title": "Connected and Autonomous Vehicles Integration",
+      "domain": "Urban / Smart City Planning",
+      "description": "Integrating connected and autonomous vehicles into smart city infrastructure and transportation systems.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["CAV Technology", "Vehicle Communication", "Traffic Integration", "Safety Protocols", "Regulatory Frameworks"],
+      "mapped_roles": ["traffic_management_systems_engineer"],
+      "prerequisites": ["UC-111"],
+      "learning_outcomes": [
+        "Understand CAV technology",
+        "Integrate vehicles into systems",
+        "Manage vehicle communication",
+        "Ensure safety compliance"
+      ]
+    },
+    {
+      "course_id": "UC-113",
+      "title": "Urban Sustainability Analytics",
+      "domain": "Urban / Smart City Planning",
+      "description": "Analyzing environmental and sustainability metrics for urban areas including emissions, energy, and water.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["Environmental Monitoring", "Sustainability Metrics", "Carbon Accounting", "Resource Efficiency", "Impact Assessment"],
+      "mapped_roles": ["sustainability_analytics_specialist"],
+      "prerequisites": ["UC-101"],
+      "learning_outcomes": [
+        "Monitor environmental metrics",
+        "Calculate carbon footprints",
+        "Assess resource efficiency",
+        "Support sustainability goals"
+      ]
+    },
+    {
+      "course_id": "UC-114",
+      "title": "Energy Analytics and Smart Grids",
+      "domain": "Urban / Smart City Planning",
+      "description": "Energy data analytics for urban areas including smart grid technologies and demand management.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 7,
+      "skills_covered": ["Energy Monitoring", "Grid Analytics", "Demand Response", "Peak Management", "Renewable Integration"],
+      "mapped_roles": ["sustainability_analytics_specialist"],
+      "prerequisites": ["UC-104"],
+      "learning_outcomes": [
+        "Analyze energy consumption",
+        "Optimize grid operations",
+        "Support demand management",
+        "Integrate renewables"
+      ]
+    },
+    {
+      "course_id": "UC-115",
+      "title": "Advanced Sustainability Modeling",
+      "domain": "Urban / Smart City Planning",
+      "description": "Advanced modeling techniques for assessing and forecasting urban sustainability impacts.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Lifecycle Assessment", "Scenario Modeling", "Impact Forecasting", "Systems Dynamics", "Policy Analysis"],
+      "mapped_roles": ["sustainability_analytics_specialist"],
+      "prerequisites": ["UC-114"],
+      "learning_outcomes": [
+        "Build sustainability models",
+        "Forecast environmental impacts",
+        "Support policy decisions",
+        "Measure progress toward goals"
+      ]
+    },
+    {
+      "course_id": "UC-116",
+      "title": "GIS Fundamentals for Urban Planning",
+      "domain": "Urban / Smart City Planning",
+      "description": "Introduction to Geographic Information Systems for urban planning and spatial analysis.",
+      "difficulty": "Beginner",
+      "duration_weeks": 5,
+      "skills_covered": ["GIS Software", "Spatial Data", "Map Creation", "Layer Management", "Basic Analysis"],
+      "mapped_roles": ["gis_spatial_analysis_specialist"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Use GIS software",
+        "Create urban maps",
+        "Perform spatial analysis",
+        "Support planning decisions"
+      ]
+    },
+    {
+      "course_id": "UC-117",
+      "title": "Advanced GIS and Spatial Analysis",
+      "domain": "Urban / Smart City Planning",
+      "description": "Advanced spatial analysis techniques for urban planning including network analysis and 3D modeling.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Network Analysis", "3D Modeling", "Spatial Statistics", "Density Analysis", "Site Suitability"],
+      "mapped_roles": ["gis_spatial_analysis_specialist"],
+      "prerequisites": ["UC-116"],
+      "learning_outcomes": [
+        "Conduct advanced spatial analysis",
+        "Create 3D city models",
+        "Analyze network connectivity",
+        "Support planning analysis"
+      ]
+    },
+    {
+      "course_id": "UC-118",
+      "title": "Urban Data Integration and Visualization",
+      "domain": "Urban / Smart City Planning",
+      "description": "Integrating GIS with urban datasets and creating effective spatial visualizations for planning.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["Data Integration", "Spatial Visualization", "Web Mapping", "Interactive Maps", "Story Mapping"],
+      "mapped_roles": ["gis_spatial_analysis_specialist"],
+      "prerequisites": ["UC-116"],
+      "learning_outcomes": [
+        "Integrate multiple data sources",
+        "Create interactive maps",
+        "Visualize spatial data",
+        "Support decision-making"
+      ]
+    },
+    {
+      "course_id": "UC-119",
+      "title": "Big Data Architecture for Smart Cities",
+      "domain": "Urban / Smart City Planning",
+      "description": "Designing big data architectures for managing and processing large-scale urban datasets.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Big Data Technologies", "Data Lake Design", "Distributed Processing", "Data Pipeline", "Infrastructure Planning"],
+      "mapped_roles": ["smart_city_data_architect"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Design big data systems",
+        "Manage urban data at scale",
+        "Implement data pipelines",
+        "Ensure system performance"
+      ]
+    },
+    {
+      "course_id": "UC-120",
+      "title": "Data Governance for Smart Cities",
+      "domain": "Urban / Smart City Planning",
+      "description": "Data governance frameworks for managing urban data including privacy, quality, and access control.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 6,
+      "skills_covered": ["Data Governance", "Data Quality", "Privacy Management", "Access Control", "Compliance"],
+      "mapped_roles": ["smart_city_data_architect"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Implement governance frameworks",
+        "Ensure data quality",
+        "Manage privacy",
+        "Control access"
+      ]
+    },
+    {
+      "course_id": "UC-121",
+      "title": "Advanced Data Architecture Patterns",
+      "domain": "Urban / Smart City Planning",
+      "description": "Advanced architectural patterns for data integration, real-time processing, and analytics in smart cities.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Architecture Patterns", "Real-time Systems", "Lambda Architecture", "Microservices", "Data Mesh"],
+      "mapped_roles": ["smart_city_data_architect"],
+      "prerequisites": ["UC-120"],
+      "learning_outcomes": [
+        "Apply architecture patterns",
+        "Design real-time systems",
+        "Implement data mesh concepts",
+        "Scale data platforms"
+      ]
+    },
+    {
+      "course_id": "UC-122",
+      "title": "IoT Application Development",
+      "domain": "Urban / Smart City Planning",
+      "description": "Developing IoT applications for smart city services including APIs, mobile apps, and platforms.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 7,
+      "skills_covered": ["API Development", "Mobile Development", "Real-time APIs", "IoT Protocols", "Integration"],
+      "mapped_roles": ["urban_iot_developer"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Build IoT applications",
+        "Develop city service APIs",
+        "Create mobile apps",
+        "Integrate with IoT platforms"
+      ]
+    },
+    {
+      "course_id": "UC-123",
+      "title": "Smart City Application Architecture",
+      "domain": "Urban / Smart City Planning",
+      "description": "Architecting applications for smart city services with focus on scalability, reliability, and user experience.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Application Architecture", "Microservices", "Cloud Deployment", "Performance Optimization", "User Experience"],
+      "mapped_roles": ["urban_iot_developer"],
+      "prerequisites": ["UC-122"],
+      "learning_outcomes": [
+        "Design scalable applications",
+        "Implement microservices",
+        "Deploy to cloud",
+        "Optimize performance"
+      ]
+    },
+    {
+      "course_id": "UC-124",
+      "title": "Urban Service Integration and APIs",
+      "domain": "Urban / Smart City Planning",
+      "description": "Integrating multiple urban services and building comprehensive APIs for city platforms.",
+      "difficulty": "Advanced",
+      "duration_weeks": 7,
+      "skills_covered": ["Service Integration", "API Patterns", "Data Interoperability", "Standards", "Security"],
+      "mapped_roles": ["urban_iot_developer"],
+      "prerequisites": ["UC-123"],
+      "learning_outcomes": [
+        "Integrate city services",
+        "Design comprehensive APIs",
+        "Ensure interoperability",
+        "Maintain security"
+      ]
+    },
+    {
+      "course_id": "UC-125",
+      "title": "Smart Grid Fundamentals",
+      "domain": "Urban / Smart City Planning",
+      "description": "Introduction to smart grid technology including components, operation, and benefits.",
+      "difficulty": "Intermediate",
+      "duration_weeks": 5,
+      "skills_covered": ["Power Systems Basics", "Smart Grid Components", "Grid Operation", "Demand Response", "Renewable Integration"],
+      "mapped_roles": ["energy_systems_engineer"],
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Understand smart grid technology",
+        "Learn grid components",
+        "Understand grid operations",
+        "Support grid modernization"
+      ]
+    },
+    {
+      "course_id": "UC-126",
+      "title": "Advanced Smart Grid Systems",
+      "domain": "Urban / Smart City Planning",
+      "description": "Advanced smart grid design, control systems, and optimization for urban energy management.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Grid Control Systems", "Advanced Optimization", "Distributed Energy", "System Stability", "Fault Management"],
+      "mapped_roles": ["energy_systems_engineer"],
+      "prerequisites": ["UC-125"],
+      "learning_outcomes": [
+        "Design smart grid systems",
+        "Optimize grid operations",
+        "Integrate distributed energy",
+        "Manage system stability"
+      ]
+    },
+    {
+      "course_id": "UC-127",
+      "title": "Energy Analytics and Demand Management",
+      "domain": "Urban / Smart City Planning",
+      "description": "Analytics for energy systems including demand forecasting, peak management, and efficiency optimization.",
+      "difficulty": "Advanced",
+      "duration_weeks": 8,
+      "skills_covered": ["Energy Forecasting", "Demand Prediction", "Load Profiling", "Peak Reduction", "Efficiency Optimization"],
+      "mapped_roles": ["energy_systems_engineer"],
+      "prerequisites": ["UC-126"],
+      "learning_outcomes": [
+        "Forecast energy demand",
+        "Manage peak loads",
+        "Optimize energy efficiency",
+        "Reduce energy costs"
+      ]
+    }
+  ]
+}

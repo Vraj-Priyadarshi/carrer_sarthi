@@ -1,0 +1,517 @@
+{
+  "sectors": {
+    "healthcare_technology": {
+      "sector_name": "Healthcare Technology",
+      "allowed_domains": ["Healthcare Technology"],
+      "roles": {
+        "health_data_analyst": {
+          "role_id": "health_data_analyst",
+          "role_name": "Health Data Analyst",
+          "sector": "healthcare_technology",
+          "core_responsibilities": [
+            "Analyze healthcare datasets to identify patterns and trends",
+            "Create dashboards and visualizations for clinical insights",
+            "Extract actionable insights from EHR systems",
+            "Support data-driven decision-making in clinical settings"
+          ],
+          "core_skills": ["Data Analysis", "SQL", "Healthcare Data Standards", "HL7/FHIR", "Visualization"],
+          "learning_progression": ["Healthcare Fundamentals", "EHR Systems", "FHIR Standards", "Advanced Analytics"],
+          "mapped_course_ids": ["HC-101", "HC-102", "HC-103", "HC-104"],
+          "mapped_project_ids": ["HCP-101", "HCP-102"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "2-5 years"
+        },
+        "clinical_informatics_specialist": {
+          "role_id": "clinical_informatics_specialist",
+          "role_name": "Clinical Informatics Specialist",
+          "sector": "healthcare_technology",
+          "core_responsibilities": [
+            "Design and implement clinical IT systems",
+            "Translate clinical workflows into system requirements",
+            "Ensure compliance with healthcare regulations (HIPAA, HL7)",
+            "Bridge the gap between clinical and IT teams"
+          ],
+          "core_skills": ["Clinical Process Mapping", "HL7/FHIR", "HIPAA", "System Design", "Healthcare IT"],
+          "learning_progression": ["Clinical Basics", "Workflow Analysis", "Standards Compliance", "System Design"],
+          "mapped_course_ids": ["HC-102", "HC-105", "HC-106"],
+          "mapped_project_ids": ["HCP-101", "HCP-103"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "3-6 years"
+        },
+        "healthcare_ml_engineer": {
+          "role_id": "healthcare_ml_engineer",
+          "role_name": "Healthcare ML Engineer",
+          "sector": "healthcare_technology",
+          "core_responsibilities": [
+            "Build machine learning models for diagnostic and predictive tasks",
+            "Work with medical imaging and structured health data",
+            "Ensure model compliance with healthcare regulations",
+            "Deploy models in production healthcare environments"
+          ],
+          "core_skills": ["ML Engineering", "Medical Imaging", "Python", "Healthcare Data", "Model Deployment"],
+          "learning_progression": ["ML Basics", "Medical Data", "Imaging AI", "Clinical Validation"],
+          "mapped_course_ids": ["HC-103", "HC-104", "HC-107"],
+          "mapped_project_ids": ["HCP-102", "HCP-104"],
+          "difficulty_preference": "Advanced",
+          "experience_level": "2-7 years"
+        },
+        "medical_imaging_specialist": {
+          "role_id": "medical_imaging_specialist",
+          "role_name": "Medical Imaging Specialist",
+          "sector": "healthcare_technology",
+          "core_responsibilities": [
+            "Process and analyze medical imaging data (CT, MRI, X-ray)",
+            "Apply computer vision to medical images",
+            "Validate imaging pipelines and quality assurance",
+            "Support radiologist and clinician workflows"
+          ],
+          "core_skills": ["Medical Imaging", "Image Processing", "DICOM Standards", "Python", "Deep Learning"],
+          "learning_progression": ["Medical Imaging Fundamentals", "DICOM Standards", "Image Processing", "Deep Learning for Imaging"],
+          "mapped_course_ids": ["HC-104", "HC-108", "HC-109"],
+          "mapped_project_ids": ["HCP-104", "HCP-105"],
+          "difficulty_preference": "Advanced",
+          "experience_level": "2-6 years"
+        },
+        "telemedicine_systems_engineer": {
+          "role_id": "telemedicine_systems_engineer",
+          "role_name": "Telemedicine Systems Engineer",
+          "sector": "healthcare_technology",
+          "core_responsibilities": [
+            "Design and maintain telemedicine platforms",
+            "Ensure real-time communication quality and reliability",
+            "Implement security protocols for remote consultations",
+            "Integrate with existing EHR and clinical systems"
+          ],
+          "core_skills": ["System Design", "Real-time Communication", "Healthcare Security", "HIPAA", "Network Architecture"],
+          "learning_progression": ["Telehealth Fundamentals", "Network Security", "System Integration", "Compliance"],
+          "mapped_course_ids": ["HC-105", "HC-110", "HC-111"],
+          "mapped_project_ids": ["HCP-103", "HCP-106"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "3-7 years"
+        },
+        "healthcare_security_analyst": {
+          "role_id": "healthcare_security_analyst",
+          "role_name": "Healthcare Security Analyst",
+          "sector": "healthcare_technology",
+          "core_responsibilities": [
+            "Implement and manage healthcare data security",
+            "Ensure HIPAA and regulatory compliance",
+            "Conduct security audits and vulnerability assessments",
+            "Develop incident response strategies"
+          ],
+          "core_skills": ["Cybersecurity", "HIPAA Compliance", "Data Protection", "Encryption", "Audit Trails"],
+          "learning_progression": ["Security Fundamentals", "Healthcare Regulations", "Risk Management", "Advanced Threat Detection"],
+          "mapped_course_ids": ["HC-111", "HC-112"],
+          "mapped_project_ids": ["HCP-106", "HCP-107"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "3-8 years"
+        },
+        "clinical_data_specialist": {
+          "role_id": "clinical_data_specialist",
+          "role_name": "Clinical Data Specialist",
+          "sector": "healthcare_technology",
+          "core_responsibilities": [
+            "Manage clinical data quality and integrity",
+            "Extract and transform clinical data for research",
+            "Implement data governance frameworks",
+            "Support clinical research and outcomes measurement"
+          ],
+          "core_skills": ["Data Governance", "Clinical Data Management", "SQL", "Data Quality", "Research Methodologies"],
+          "learning_progression": ["Clinical Data Basics", "Data Governance", "Research Data Management", "Advanced Analytics"],
+          "mapped_course_ids": ["HC-101", "HC-102", "HC-113"],
+          "mapped_project_ids": ["HCP-101", "HCP-108"],
+          "difficulty_preference": "Intermediate",
+          "experience_level": "2-5 years"
+        },
+        "population_health_analyst": {
+          "role_id": "population_health_analyst",
+          "role_name": "Population Health Analyst",
+          "sector": "healthcare_technology",
+          "core_responsibilities": [
+            "Analyze population-level health data",
+            "Identify health disparities and trends",
+            "Support preventive health initiatives",
+            "Create health outcome metrics and dashboards"
+          ],
+          "core_skills": ["Population Health Analytics", "Epidemiology Basics", "Data Visualization", "SQL", "Statistical Analysis"],
+          "learning_progression": ["Public Health Fundamentals", "Population Analytics", "Health Equity", "Advanced Metrics"],
+          "mapped_course_ids": ["HC-101", "HC-114", "HC-115"],
+          "mapped_project_ids": ["HCP-102", "HCP-108"],
+          "difficulty_preference": "Intermediate",
+          "experience_level": "2-6 years"
+        },
+        "healthcare_it_manager": {
+          "role_id": "healthcare_it_manager",
+          "role_name": "Healthcare IT Manager",
+          "sector": "healthcare_technology",
+          "core_responsibilities": [
+            "Lead healthcare IT teams and projects",
+            "Manage EHR implementations and upgrades",
+            "Develop IT strategy aligned with clinical goals",
+            "Budget and resource planning for healthcare IT"
+          ],
+          "core_skills": ["Leadership", "Project Management", "Healthcare IT Knowledge", "Vendor Management", "Strategic Planning"],
+          "learning_progression": ["IT Fundamentals", "Healthcare Systems", "Project Management", "Leadership"],
+          "mapped_course_ids": ["HC-116", "HC-117"],
+          "mapped_project_ids": ["HCP-109"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "5+ years"
+        },
+        "other_healthcare_role": {
+          "role_id": "other_healthcare_role",
+          "role_name": "Other Healthcare Role",
+          "sector": "healthcare_technology",
+          "core_responsibilities": ["Support healthcare technology initiatives"],
+          "core_skills": ["Healthcare Domain Knowledge", "Problem Solving"],
+          "learning_progression": ["Healthcare Basics", "Domain-Specific Knowledge"],
+          "mapped_course_ids": ["HC-101", "HC-102"],
+          "mapped_project_ids": ["HCP-101"],
+          "difficulty_preference": "Beginner to Intermediate",
+          "experience_level": "0+ years"
+        }
+      }
+    },
+    "agricultural_sciences": {
+      "sector_name": "Agricultural Sciences",
+      "allowed_domains": ["Agricultural Sciences"],
+      "roles": {
+        "precision_agriculture_specialist": {
+          "role_id": "precision_agriculture_specialist",
+          "role_name": "Precision Agriculture Specialist",
+          "sector": "agricultural_sciences",
+          "core_responsibilities": [
+            "Apply data-driven techniques to optimize crop production",
+            "Implement precision farming technologies",
+            "Analyze soil and crop variability",
+            "Design and execute field trials"
+          ],
+          "core_skills": ["Precision Agriculture", "GIS", "Soil Analysis", "Data Collection", "Field Agronomy"],
+          "learning_progression": ["Agriculture Fundamentals", "Precision Concepts", "GIS Technology", "Advanced Analytics"],
+          "mapped_course_ids": ["AG-101", "AG-102", "AG-103"],
+          "mapped_project_ids": ["AGP-101", "AGP-102"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "2-5 years"
+        },
+        "agricultural_data_scientist": {
+          "role_id": "agricultural_data_scientist",
+          "role_name": "Agricultural Data Scientist",
+          "sector": "agricultural_sciences",
+          "core_responsibilities": [
+            "Build analytics models for crop and farm optimization",
+            "Process large-scale agricultural datasets",
+            "Create predictive models for yield and pest management",
+            "Support evidence-based farming decisions"
+          ],
+          "core_skills": ["Data Science", "Python", "Statistical Analysis", "Agricultural Domain Knowledge", "Predictive Modeling"],
+          "learning_progression": ["Agriculture Basics", "Data Science Fundamentals", "Agricultural Analytics", "Advanced Modeling"],
+          "mapped_course_ids": ["AG-104", "AG-105", "AG-106"],
+          "mapped_project_ids": ["AGP-103", "AGP-104"],
+          "difficulty_preference": "Advanced",
+          "experience_level": "2-6 years"
+        },
+        "farm_automation_engineer": {
+          "role_id": "farm_automation_engineer",
+          "role_name": "Farm Automation Engineer",
+          "sector": "agricultural_sciences",
+          "core_responsibilities": [
+            "Design and implement farm automation systems",
+            "Integrate IoT sensors and drones into farm operations",
+            "Maintain and troubleshoot automated equipment",
+            "Optimize automation workflows"
+          ],
+          "core_skills": ["IoT Systems", "Automation", "Robotics", "Farm Equipment", "System Integration"],
+          "learning_progression": ["Farm Automation Fundamentals", "IoT Sensors", "Robotics", "System Design"],
+          "mapped_course_ids": ["AG-107", "AG-108", "AG-109"],
+          "mapped_project_ids": ["AGP-105", "AGP-106"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "2-7 years"
+        },
+        "agritech_product_manager": {
+          "role_id": "agritech_product_manager",
+          "role_name": "AgriTech Product Manager",
+          "sector": "agricultural_sciences",
+          "core_responsibilities": [
+            "Define product roadmap for AgriTech solutions",
+            "Understand farmer and stakeholder needs",
+            "Drive product development and market adoption",
+            "Manage partnerships with agricultural organizations"
+          ],
+          "core_skills": ["Product Management", "Agricultural Domain", "Market Analysis", "Stakeholder Management", "Agile Methodology"],
+          "learning_progression": ["AgriTech Basics", "Market Analysis", "Product Strategy", "Leadership"],
+          "mapped_course_ids": ["AG-110", "AG-111"],
+          "mapped_project_ids": ["AGP-107", "AGP-108"],
+          "difficulty_preference": "Intermediate",
+          "experience_level": "3-6 years"
+        },
+        "crop_analytics_specialist": {
+          "role_id": "crop_analytics_specialist",
+          "role_name": "Crop Analytics Specialist",
+          "sector": "agricultural_sciences",
+          "core_responsibilities": [
+            "Analyze crop performance and health data",
+            "Track crop growth stages and stress indicators",
+            "Generate yield forecasts and insights",
+            "Support crop management decision-making"
+          ],
+          "core_skills": ["Crop Science", "Remote Sensing", "Data Analysis", "Agricultural Statistics", "GIS"],
+          "learning_progression": ["Crop Science Fundamentals", "Remote Sensing Basics", "Analytics Techniques", "Advanced Forecasting"],
+          "mapped_course_ids": ["AG-102", "AG-105", "AG-112"],
+          "mapped_project_ids": ["AGP-104", "AGP-109"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "2-5 years"
+        },
+        "agricultural_iot_specialist": {
+          "role_id": "agricultural_iot_specialist",
+          "role_name": "Agricultural IoT Specialist",
+          "sector": "agricultural_sciences",
+          "core_responsibilities": [
+            "Deploy and manage IoT sensor networks on farms",
+            "Collect and process real-time agricultural data",
+            "Maintain connectivity and data reliability",
+            "Integrate IoT data with farm management systems"
+          ],
+          "core_skills": ["IoT Architecture", "Sensor Networks", "Data Integration", "Edge Computing", "Farm Technology"],
+          "learning_progression": ["IoT Fundamentals", "Sensor Technology", "Network Architecture", "Data Integration"],
+          "mapped_course_ids": ["AG-108", "AG-113", "AG-114"],
+          "mapped_project_ids": ["AGP-105", "AGP-110"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "2-6 years"
+        },
+        "smart_irrigation_engineer": {
+          "role_id": "smart_irrigation_engineer",
+          "role_name": "Smart Irrigation Engineer",
+          "sector": "agricultural_sciences",
+          "core_responsibilities": [
+            "Design smart irrigation systems",
+            "Optimize water use based on soil and weather data",
+            "Implement water management technologies",
+            "Monitor and maintain irrigation infrastructure"
+          ],
+          "core_skills": ["Irrigation Systems", "Soil Hydrology", "Sensor Technology", "Water Management", "Automation"],
+          "learning_progression": ["Irrigation Fundamentals", "Soil-Water Relationships", "Smart Systems", "System Optimization"],
+          "mapped_course_ids": ["AG-109", "AG-115", "AG-116"],
+          "mapped_project_ids": ["AGP-106", "AGP-111"],
+          "difficulty_preference": "Intermediate",
+          "experience_level": "2-5 years"
+        },
+        "agricultural_robotics_engineer": {
+          "role_id": "agricultural_robotics_engineer",
+          "role_name": "Agricultural Robotics Engineer",
+          "sector": "agricultural_sciences",
+          "core_responsibilities": [
+            "Design and develop robotic systems for farm operations",
+            "Implement autonomous farm robots",
+            "Test and validate robot performance",
+            "Integrate robotics with farm management systems"
+          ],
+          "core_skills": ["Robotics", "Autonomous Systems", "Computer Vision", "Mechanical Engineering", "Agricultural Applications"],
+          "learning_progression": ["Robotics Fundamentals", "Autonomous Systems", "Computer Vision", "Agricultural Robotics Applications"],
+          "mapped_course_ids": ["AG-117", "AG-118"],
+          "mapped_project_ids": ["AGP-112", "AGP-113"],
+          "difficulty_preference": "Advanced",
+          "experience_level": "3-7 years"
+        },
+        "soil_health_data_analyst": {
+          "role_id": "soil_health_data_analyst",
+          "role_name": "Soil Health Data Analyst",
+          "sector": "agricultural_sciences",
+          "core_responsibilities": [
+            "Analyze soil data to assess health and fertility",
+            "Monitor soil properties over time",
+            "Generate soil health recommendations",
+            "Support sustainable soil management practices"
+          ],
+          "core_skills": ["Soil Science", "Data Analysis", "Soil Sampling", "Laboratory Analysis", "Statistical Modeling"],
+          "learning_progression": ["Soil Science Fundamentals", "Soil Sampling Methods", "Data Analysis", "Predictive Modeling"],
+          "mapped_course_ids": ["AG-119", "AG-120"],
+          "mapped_project_ids": ["AGP-114", "AGP-115"],
+          "difficulty_preference": "Intermediate",
+          "experience_level": "2-5 years"
+        },
+        "other_agriculture_role": {
+          "role_id": "other_agriculture_role",
+          "role_name": "Other Agriculture Role",
+          "sector": "agricultural_sciences",
+          "core_responsibilities": ["Support agricultural technology initiatives"],
+          "core_skills": ["Agricultural Domain Knowledge", "Problem Solving"],
+          "learning_progression": ["Agriculture Basics", "Domain-Specific Knowledge"],
+          "mapped_course_ids": ["AG-101", "AG-102"],
+          "mapped_project_ids": ["AGP-101"],
+          "difficulty_preference": "Beginner to Intermediate",
+          "experience_level": "0+ years"
+        }
+      }
+    },
+    "urban_smart_city": {
+      "sector_name": "Urban / Smart City Planning",
+      "allowed_domains": ["Urban / Smart City Planning"],
+      "roles": {
+        "smart_city_solutions_architect": {
+          "role_id": "smart_city_solutions_architect",
+          "role_name": "Smart City Solutions Architect",
+          "sector": "urban_smart_city",
+          "core_responsibilities": [
+            "Design comprehensive smart city solutions",
+            "Integrate multiple IoT and data systems",
+            "Develop scalable urban technology platforms",
+            "Lead smart city transformation initiatives"
+          ],
+          "core_skills": ["System Architecture", "IoT Systems", "Urban Planning Knowledge", "Solution Design", "Strategic Planning"],
+          "learning_progression": ["Smart City Fundamentals", "System Design", "IoT Integration", "Advanced Architecture"],
+          "mapped_course_ids": ["UC-101", "UC-102", "UC-103"],
+          "mapped_project_ids": ["UCP-101", "UCP-102"],
+          "difficulty_preference": "Advanced",
+          "experience_level": "5+ years"
+        },
+        "urban_data_analyst": {
+          "role_id": "urban_data_analyst",
+          "role_name": "Urban Data Analyst",
+          "sector": "urban_smart_city",
+          "core_responsibilities": [
+            "Analyze urban datasets for city planning insights",
+            "Create dashboards for city management",
+            "Identify urban trends and patterns",
+            "Support data-driven city planning decisions"
+          ],
+          "core_skills": ["Data Analytics", "Urban Data", "Visualization", "SQL", "GIS", "Statistical Analysis"],
+          "learning_progression": ["Urban Data Basics", "Data Analytics", "City Planning Analytics", "Advanced Insights"],
+          "mapped_course_ids": ["UC-104", "UC-105", "UC-106"],
+          "mapped_project_ids": ["UCP-101", "UCP-103"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "2-5 years"
+        },
+        "iot_infrastructure_engineer": {
+          "role_id": "iot_infrastructure_engineer",
+          "role_name": "IoT Infrastructure Engineer",
+          "sector": "urban_smart_city",
+          "core_responsibilities": [
+            "Design and deploy city-wide IoT infrastructure",
+            "Manage sensor networks and connectivity",
+            "Ensure system reliability and scalability",
+            "Maintain IoT backend systems"
+          ],
+          "core_skills": ["IoT Architecture", "Network Engineering", "Sensor Management", "Edge Computing", "System Monitoring"],
+          "learning_progression": ["IoT Fundamentals", "Network Architecture", "Sensor Deployment", "System Operations"],
+          "mapped_course_ids": ["UC-107", "UC-108", "UC-109"],
+          "mapped_project_ids": ["UCP-104", "UCP-105"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "3-6 years"
+        },
+        "traffic_management_systems_engineer": {
+          "role_id": "traffic_management_systems_engineer",
+          "role_name": "Traffic Management Systems Engineer",
+          "sector": "urban_smart_city",
+          "core_responsibilities": [
+            "Design intelligent traffic management systems",
+            "Implement real-time traffic monitoring",
+            "Optimize traffic flow using data analytics",
+            "Integrate with urban mobility platforms"
+          ],
+          "core_skills": ["Traffic Engineering", "Real-time Systems", "IoT Sensors", "Traffic Optimization", "Data Analytics"],
+          "learning_progression": ["Traffic Fundamentals", "Real-time Systems", "Traffic Optimization", "Intelligent Systems"],
+          "mapped_course_ids": ["UC-110", "UC-111", "UC-112"],
+          "mapped_project_ids": ["UCP-106", "UCP-107"],
+          "difficulty_preference": "Advanced",
+          "experience_level": "3-7 years"
+        },
+        "sustainability_analytics_specialist": {
+          "role_id": "sustainability_analytics_specialist",
+          "role_name": "Sustainability Analytics Specialist",
+          "sector": "urban_smart_city",
+          "core_responsibilities": [
+            "Track and analyze urban sustainability metrics",
+            "Monitor environmental impact of city operations",
+            "Develop sustainability dashboards and reports",
+            "Support green city initiatives"
+          ],
+          "core_skills": ["Sustainability Science", "Environmental Data Analysis", "Metrics Development", "Data Visualization", "Urban Analytics"],
+          "learning_progression": ["Sustainability Fundamentals", "Environmental Analytics", "Urban Metrics", "Advanced Sustainability Modeling"],
+          "mapped_course_ids": ["UC-113", "UC-114", "UC-115"],
+          "mapped_project_ids": ["UCP-108", "UCP-109"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "2-5 years"
+        },
+        "gis_spatial_analysis_specialist": {
+          "role_id": "gis_spatial_analysis_specialist",
+          "role_name": "GIS / Spatial Analysis Specialist",
+          "sector": "urban_smart_city",
+          "core_responsibilities": [
+            "Create spatial analyses for urban planning",
+            "Develop GIS-based decision support systems",
+            "Map urban infrastructure and resources",
+            "Support location-based city planning"
+          ],
+          "core_skills": ["GIS", "Spatial Analysis", "Cartography", "Remote Sensing", "Urban Planning Knowledge"],
+          "learning_progression": ["GIS Fundamentals", "Spatial Analysis Techniques", "Urban GIS Applications", "Advanced Spatial Modeling"],
+          "mapped_course_ids": ["UC-116", "UC-117", "UC-118"],
+          "mapped_project_ids": ["UCP-110", "UCP-111"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "2-6 years"
+        },
+        "smart_city_data_architect": {
+          "role_id": "smart_city_data_architect",
+          "role_name": "Smart City Data Architect",
+          "sector": "urban_smart_city",
+          "core_responsibilities": [
+            "Design data architectures for smart cities",
+            "Integrate heterogeneous urban data sources",
+            "Implement data governance for city systems",
+            "Ensure data quality and security"
+          ],
+          "core_skills": ["Data Architecture", "Database Design", "Data Integration", "Data Governance", "Big Data Technologies"],
+          "learning_progression": ["Data Architecture Basics", "Urban Data Integration", "Data Governance", "Advanced Architecture"],
+          "mapped_course_ids": ["UC-119", "UC-120", "UC-121"],
+          "mapped_project_ids": ["UCP-112", "UCP-113"],
+          "difficulty_preference": "Advanced",
+          "experience_level": "4-8 years"
+        },
+        "urban_iot_developer": {
+          "role_id": "urban_iot_developer",
+          "role_name": "Urban IoT Developer",
+          "sector": "urban_smart_city",
+          "core_responsibilities": [
+            "Develop software for urban IoT applications",
+            "Build APIs for smart city data integration",
+            "Create city service applications",
+            "Maintain and update urban IoT applications"
+          ],
+          "core_skills": ["Software Development", "IoT Development", "API Design", "Cloud Platforms", "Real-time Systems"],
+          "learning_progression": ["IoT Development Fundamentals", "API Development", "Urban IoT Applications", "System Scaling"],
+          "mapped_course_ids": ["UC-122", "UC-123", "UC-124"],
+          "mapped_project_ids": ["UCP-114", "UCP-115"],
+          "difficulty_preference": "Intermediate to Advanced",
+          "experience_level": "2-6 years"
+        },
+        "energy_systems_engineer": {
+          "role_id": "energy_systems_engineer",
+          "role_name": "Energy Systems Engineer",
+          "sector": "urban_smart_city",
+          "core_responsibilities": [
+            "Design smart grid and energy management systems",
+            "Optimize energy distribution and consumption",
+            "Implement renewable energy integration",
+            "Monitor and control urban energy systems"
+          ],
+          "core_skills": ["Power Systems", "Energy Management", "Smart Grid Technology", "IoT Integration", "System Optimization"],
+          "learning_progression": ["Energy Fundamentals", "Smart Grid Concepts", "Energy Analytics", "Advanced System Optimization"],
+          "mapped_course_ids": ["UC-125", "UC-126", "UC-127"],
+          "mapped_project_ids": ["UCP-116", "UCP-117"],
+          "difficulty_preference": "Advanced",
+          "experience_level": "3-7 years"
+        },
+        "other_smart_city_role": {
+          "role_id": "other_smart_city_role",
+          "role_name": "Other Smart City Role",
+          "sector": "urban_smart_city",
+          "core_responsibilities": ["Support smart city technology initiatives"],
+          "core_skills": ["Smart City Domain Knowledge", "Problem Solving"],
+          "learning_progression": ["Smart City Basics", "Domain-Specific Knowledge"],
+          "mapped_course_ids": ["UC-101", "UC-102"],
+          "mapped_project_ids": ["UCP-101"],
+          "difficulty_preference": "Beginner to Intermediate",
+          "experience_level": "0+ years"
+        }
+      }
+    }
+  }
+}

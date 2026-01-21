@@ -1,0 +1,166 @@
+# ===========================================
+# Career Saarthi Backend - Git Ignore File
+# ===========================================
+
+# ===========================================
+# CRITICAL: Sensitive Configuration Files
+# ===========================================
+# Main application properties (contains DB creds, JWT secret, OAuth secrets, API keys)
+src/main/resources/application.properties
+src/main/resources/application.yml
+src/main/resources/application.yaml
+
+# Profile-specific configs
+src/main/resources/application-*.properties
+src/main/resources/application-*.yml
+src/main/resources/application-*.yaml
+
+# Secret/credential files
+src/main/resources/*-secret.*
+src/main/resources/*-local.*
+src/main/resources/*-prod.*
+src/main/resources/*-dev.*
+
+# Compiled properties in target
+target/classes/application.properties
+target/classes/application*.properties
+target/classes/application*.yml
+
+# ===========================================
+# Environment Variables
+# ===========================================
+.env
+.env.*
+*.env
+env.properties
+
+# ===========================================
+# Build Outputs
+# ===========================================
+HELP.md
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven wrapper jar (optional - can include for easier builds)
+.mvn/wrapper/maven-wrapper.jar
+
+# ===========================================
+# Java Compiled Files
+# ===========================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# ===========================================
+# Logs
+# ===========================================
+logs/
+*.log
+spring.log
+*.log.*
+
+# ===========================================
+# IDE: Spring Tool Suite (STS)
+# ===========================================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+
+# ===========================================
+# IDE: IntelliJ IDEA
+# ===========================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+# ===========================================
+# IDE: NetBeans
+# ===========================================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===========================================
+# IDE: VS Code
+# ===========================================
+.vscode/
+*.code-workspace
+
+# ===========================================
+# IDE: Eclipse
+# ===========================================
+.metadata
+.recommenders
+*.launch
+.loadpath
+
+# ===========================================
+# OS Generated Files
+# ===========================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ===========================================
+# Temporary & Backup Files
+# ===========================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+
+# ===========================================
+# Security & Credentials
+# ===========================================
+# Keystore files
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.crt
+*.cer
+
+# Credential files
+credentials.properties
+secrets.properties
+secrets.yml
+*-credentials.*
+*-secrets.*
+
+# Google OAuth JSON credentials
+client_secret*.json
+google-credentials.json
+
+# ===========================================
+# Test & Coverage
+# ===========================================
+/coverage/
+*.exec
+jacoco.exec
+test-output/
+surefire-reports/
+failsafe-reports/

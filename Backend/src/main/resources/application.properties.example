@@ -1,0 +1,89 @@
+# ===========================================
+# Career Saarthi - Spring Boot Configuration
+# ===========================================
+# IMPORTANT: Copy this file to application.properties and fill in your values
+# DO NOT commit the actual application.properties file!
+
+# Application Configuration
+spring.application.name=career-saarthi
+
+# Server Configuration
+server.port=8080
+
+# ===========================================
+# Database Configuration (MySQL)
+# ===========================================
+spring.datasource.url=jdbc:mysql://localhost:3306/Career_Saarthi
+spring.datasource.username=YOUR_DB_USERNAME
+spring.datasource.password=YOUR_DB_PASSWORD
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# ===========================================
+# JPA/Hibernate Configuration
+# ===========================================
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+# ===========================================
+# JWT Configuration
+# ===========================================
+# Generate a secure secret key (min 256 bits for HS256)
+# Use: openssl rand -base64 64
+jwt.secret=YOUR_JWT_SECRET_KEY_HERE_GENERATE_USING_OPENSSL_RAND_BASE64_64
+jwt.expiration-ms=2592000000
+
+# ===========================================
+# OAuth2 Google Configuration
+# ===========================================
+# Get credentials from: https://console.cloud.google.com/apis/credentials
+spring.security.oauth2.client.registration.google.client-id=YOUR_GOOGLE_CLIENT_ID
+spring.security.oauth2.client.registration.google.client-secret=YOUR_GOOGLE_CLIENT_SECRET
+spring.security.oauth2.client.registration.google.scope=profile,email
+spring.security.oauth2.client.registration.google.redirect-uri={baseUrl}/oauth2/callback/google
+
+# Frontend redirect URI after OAuth2 success
+oauth2.redirect-uri=http://localhost:5173/oauth2/redirect
+
+# ===========================================
+# CORS Configuration
+# ===========================================
+cors.allowed-origins=http://localhost:5173
+cors.allowed-methods=GET,POST,PUT,DELETE,PATCH,OPTIONS
+cors.allowed-headers=*
+cors.exposed-headers=Authorization
+cors.allow-credentials=true
+cors.max-age=86400
+
+# ===========================================
+# Email Configuration (Gmail SMTP)
+# ===========================================
+# For Gmail, enable "App Passwords" in Google Account settings
+# https://myaccount.google.com/apppasswords
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=YOUR_EMAIL@gmail.com
+spring.mail.password=YOUR_APP_PASSWORD
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true
+
+# Email sender configuration
+app.email.from=noreply@careersaarthi.com
+app.frontend.url=http://localhost:5173
+
+# ===========================================
+# Logging Configuration
+# ===========================================
+logging.level.root=INFO
+logging.level.com.hackathon.securestarter=DEBUG
+
+# ===========================================
+# External API Configuration
+# ===========================================
+external.api.skill-predict.base-url=http://localhost:8001
+external.api.ml-recommendations.base-url=http://localhost:8002
+external.api.youtube.base-url=https://www.googleapis.com/youtube/v3
+external.api.youtube.api-key=YOUR_YOUTUBE_API_KEY
+external.api.timeout-seconds=5
