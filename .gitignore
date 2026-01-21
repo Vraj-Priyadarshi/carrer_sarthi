@@ -171,7 +171,7 @@ coverage.xml
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
+# *.ipynb  # Commented out - notebooks are allowed
 
 # ===========================================
 # Misc
