@@ -491,7 +491,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Authors
 
-- **Vraj Priyadarshi** - *Initial work* - [GitHub](https://github.com/Vraj-Priyadarshi)
+- **Vraj Priyadarshi** - [GitHub](https://github.com/Vraj-Priyadarshi)
+- **Hriday Mulchandani** - [GitHub](https://github.com/HridayBuilds)
+- **Tanish Jha** 
+- **Jil Patel** - [GitHub](https://github.com/JilPatel51)
 
 ---
 
@@ -511,3 +514,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <p align="center">
   <a href="#-career-saarthi">⬆️ Back to Top</a>
 </p>
+
